@@ -1,11 +1,11 @@
 'use client';
 
+import { useEffect, useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { getRandomRegion } from '@/lib/utils';
-import { useEffect, useState } from 'react';
 import { Button } from '@/components/ui/button';
 import RegionCard from '@/components/region-card';
-import StatsCard from '@/components/stats-card';
+import Directions from '@/components/directions';
 import { ReincarnationStats } from '@/types';
 
 const MainContent = () => {
@@ -55,12 +55,21 @@ const MainContent = () => {
 
     return (
         <div className="flex-1 flex flex-col justify-center">
-            <RegionCard currentRegion={currentRegion} translateRegion={translateRegion} translate={translate} />
+            <RegionCard
+                reincarnationStats={reincarnationStats}
+                currentRegion={currentRegion}
+                translateRegion={translateRegion}
+                translate={translate}
+            />
             <div className="flex gap-4 justify-center my-6">
-                <Button onClick={handleRandomClick}>{translate('reincarnation')}</Button>
-                <Button onClick={handleResetClick}>{translate('reset')}</Button>
+                <Button className="min-w-24 font-semibold" onClick={handleRandomClick}>
+                    {translate('reincarnation')}
+                </Button>
+                <Button className="min-w-24 font-semibold" onClick={handleResetClick}>
+                    {translate('reset')}
+                </Button>
             </div>
-            <StatsCard reincarnationStats={reincarnationStats} translate={translate} />
+            <Directions translate={translate} />
         </div>
     );
 };

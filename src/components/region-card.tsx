@@ -1,13 +1,14 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Region } from '@/types';
+import { Region, ReincarnationStats } from '@/types';
 
 interface RegionCardProps {
+    reincarnationStats: ReincarnationStats;
     currentRegion: Region | null;
     translateRegion: (name: string) => string;
     translate: (key: string) => string;
 }
 
-const RegionCard = ({ currentRegion, translateRegion, translate }: RegionCardProps) => {
+const RegionCard = ({ reincarnationStats, currentRegion, translateRegion, translate }: RegionCardProps) => {
     return (
         <Card className="shadow-lg rounded-lg">
             <CardHeader>
@@ -28,6 +29,17 @@ const RegionCard = ({ currentRegion, translateRegion, translate }: RegionCardPro
                         {currentRegion?.populationPercentage
                             ? `${currentRegion.populationPercentage.toFixed(3)}${translate('percentage')}`
                             : '？'}
+                    </div>
+                </div>
+                <div className="grid gap-4">
+                    <div className="text-lg">
+                        {translate('reincarnationCount')}：{reincarnationStats.totalCount}
+                    </div>
+                    <div className="text-lg">
+                        {translate('reincarnationChinaCount')}：{reincarnationStats.chinaCount}
+                    </div>
+                    <div className="text-lg">
+                        {translate('reincarnationIndiaCount')}：{reincarnationStats.indiaCount}
                     </div>
                 </div>
             </CardContent>
