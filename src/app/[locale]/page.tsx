@@ -66,33 +66,33 @@ export default function HomePage() {
                 </div>
                 <Card className="mb-6 shadow-lg rounded-lg">
                     <CardHeader>
-                        <CardTitle className="text-center text-xl font-semibold text-gray-900 dark:text-gray-100">
+                        <CardTitle className="text-center text-2xl font-bold text-gray-900 dark:text-gray-100">
                             {currentRegion?.name ? regionT(currentRegion.name) : '？'}
                         </CardTitle>
                     </CardHeader>
-                    <CardContent className="gap-2 flex flex-col lg:flex-row justify-around">
-                        <div className="grid gap-2">
-                            <div>
+                    <CardContent className="gap-4 flex flex-col lg:flex-row justify-around">
+                        <div className="grid gap-4">
+                            <div className="text-lg">
                                 {t('rank')}：{currentRegion?.rank ?? '？'}
                             </div>
-                            <div>
+                            <div className="text-lg">
                                 {t('hdi')}：{currentRegion?.hdi ?? '？'}
                             </div>
-                            <div>
+                            <div className="text-lg">
                                 {t('rarity')}：
                                 {currentRegion?.populationPercentage
                                     ? `${currentRegion.populationPercentage.toFixed(3)}${t('percentage')}`
                                     : '？'}
                             </div>
                         </div>
-                        <div className="grid gap-2">
-                            <div>
+                        <div className="grid gap-4">
+                            <div className="text-lg">
                                 {t('reincarnationCount')}：{reincarnationStats.totalCount}
                             </div>
-                            <div>
+                            <div className="text-lg">
                                 {t('reincarnationChinaCount')}：{reincarnationStats.chinaCount}
                             </div>
-                            <div>
+                            <div className="text-lg">
                                 {t('reincarnationIndiaCount')}：{reincarnationStats.indiaCount}
                             </div>
                         </div>
@@ -115,7 +115,12 @@ export default function HomePage() {
                     <p className="mt-2 text-sm text-gray-600 dark:text-gray-400">{t('disclaimer')}</p>
                     <p className="mt-1 text-sm text-gray-600 dark:text-gray-400">
                         {t('inspiration')}
-                        <a href="https://dweam.xyz/luck" target="_blank" rel="noopener noreferrer">
+                        <a
+                            className="font-semibold"
+                            href="https://dweam.xyz/luck"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
                             投胎抽卡機
                         </a>
                     </p>
