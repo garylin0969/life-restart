@@ -55,18 +55,18 @@ export default function HomePage() {
     };
 
     return (
-        <div className="container mx-auto p-6 min-h-screen">
-            <div>
-                <div className="flex justify-between items-center mb-6">
-                    <h1 className="text-3xl font-bold text-gray-800 dark:text-gray-200">{t('title')}</h1>
-                    <div className="flex items-center gap-4">
-                        <LanguageSelect />
-                        <ThemeSwitch />
-                    </div>
+        <div className="flex flex-col min-h-svh px-6">
+            <header className="flex justify-between items-center p-4">
+                <h1 className="text-2xl mb:text-3xl font-bold">{t('title')}</h1>
+                <div className="flex items-center gap-2">
+                    <LanguageSelect />
+                    <ThemeSwitch />
                 </div>
-                <Card className="mb-6 shadow-lg rounded-lg">
+            </header>
+            <div className="flex-1 flex flex-col justify-center">
+                <Card className="shadow-lg rounded-lg">
                     <CardHeader>
-                        <CardTitle className="text-center text-2xl font-bold text-gray-900 dark:text-gray-100">
+                        <CardTitle className="text-center text-2xl font-bold">
                             {currentRegion?.name ? regionT(currentRegion.name) : '？'}
                         </CardTitle>
                     </CardHeader>
@@ -98,10 +98,37 @@ export default function HomePage() {
                         </div>
                     </CardContent>
                 </Card>
-                <div className="flex gap-4 justify-center">
+                <div className="flex gap-4 justify-center my-6">
                     <Button onClick={handleRandomClick}>{t('reincarnation')}</Button>
                     <Button onClick={handleResetClick}>{t('reset')}</Button>
                 </div>
+                <Card className="mb-6 shadow-lg rounded-lg">
+                    <CardContent className="flex-col flex gap-2 p-4">
+                        <h2 className="text-lg font-bold text-gray-900 dark:text-gray-100">
+                            {t('hdiExplanationTitle')}
+                        </h2>
+                        <p className="text-gray-700 dark:text-gray-300">{t('hdiExplanation')}</p>
+                        <h3 className="font-semibold text-gray-900 dark:text-gray-100">{t('hdiStandardsTitle')}</h3>
+                        <ul className="list-disc pl-5">
+                            <li className="text-gray-700 dark:text-gray-300">{t('hdiStandardVeryHigh')}</li>
+                            <li className="text-gray-700 dark:text-gray-300">{t('hdiStandardHigh')}</li>
+                            <li className="text-gray-700 dark:text-gray-300">{t('hdiStandardMedium')}</li>
+                            <li className="text-gray-700 dark:text-gray-300">{t('hdiStandardLow')}</li>
+                        </ul>
+                        <p className="mt-2 text-sm text-gray-600 dark:text-gray-400">{t('disclaimer')}</p>
+                        <p className="mt-1 text-sm text-gray-600 dark:text-gray-400">
+                            {t('inspiration')}
+                            <a
+                                className="font-semibold"
+                                href="https://dweam.xyz/luck"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                投胎抽卡機
+                            </a>
+                        </p>
+                    </CardContent>
+                </Card>
                 <div className="mt-4 p-4 border rounded-lg bg-gray-100 dark:bg-gray-800 dark:border-gray-700 flex-col flex gap-2">
                     <h2 className="text-lg font-bold text-gray-900 dark:text-gray-100">{t('hdiExplanationTitle')}</h2>
                     <p className="text-gray-700 dark:text-gray-300">{t('hdiExplanation')}</p>
@@ -126,7 +153,7 @@ export default function HomePage() {
                     </p>
                 </div>
             </div>
-            <footer className="mt-8 p-4 text-center">
+            <footer className="p-4 text-center">
                 <p className="text-gray-600 dark:text-gray-400">2025 Developed by Gary Lin</p>
                 <div className="flex justify-center gap-4 mt-2">
                     <a href="https://github.com/garylin0969" target="_blank" rel="noopener noreferrer">

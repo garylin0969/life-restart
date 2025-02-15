@@ -46,7 +46,7 @@ export default async function LocaleLayout({
             <body className={cn(inter.className, 'antialiased')}>
                 <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
                     <NextIntlClientProvider messages={messages} locale={locale}>
-                        {children}
+                        <div className="container mx-auto">{children}</div>
                     </NextIntlClientProvider>
                 </ThemeProvider>
             </body>
