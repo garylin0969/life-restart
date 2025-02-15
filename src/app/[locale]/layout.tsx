@@ -1,10 +1,10 @@
-import { Inter } from 'next/font/google';
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
+import { Inter } from 'next/font/google';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { routing } from '@/i18n/routing';
-import { ThemeProvider } from '@/components/theme-provider';
+import { ThemeProvider } from '@/providers/theme-provider';
 import { cn } from '@/lib/utils';
 
 const inter = Inter({
