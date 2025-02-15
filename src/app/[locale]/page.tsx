@@ -64,10 +64,6 @@ export default function HomePage() {
                         <ThemeSwitch />
                     </div>
                 </div>
-                <div className="flex gap-4 mb-4">
-                    <Button onClick={handleRandomClick}>{t('reincarnation')}</Button>
-                    <Button onClick={handleResetClick}>{t('reset')}</Button>
-                </div>
                 <Card className="mb-6 shadow-lg rounded-lg">
                     <CardHeader>
                         <CardTitle className="text-center text-xl font-semibold text-gray-900 dark:text-gray-100">
@@ -102,6 +98,10 @@ export default function HomePage() {
                         </div>
                     </CardContent>
                 </Card>
+                <div className="flex gap-4 justify-center">
+                    <Button onClick={handleRandomClick}>{t('reincarnation')}</Button>
+                    <Button onClick={handleResetClick}>{t('reset')}</Button>
+                </div>
                 <div className="mt-4 p-4 border rounded-lg bg-gray-100 dark:bg-gray-800 dark:border-gray-700 flex-col flex gap-2">
                     <h2 className="text-lg font-bold text-gray-900 dark:text-gray-100">{t('hdiExplanationTitle')}</h2>
                     <p className="text-gray-700 dark:text-gray-300">{t('hdiExplanation')}</p>
