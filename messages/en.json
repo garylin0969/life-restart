@@ -10,7 +10,16 @@
         "percentage": "%",
         "reincarnationCount": "Reincarnation Count",
         "reincarnationChinaCount": "Reincarnation in China",
-        "reincarnationIndiaCount": "Reincarnation in India"
+        "reincarnationIndiaCount": "Reincarnation in India",
+        "hdiExplanationTitle": "Human Development Index (HDI)",
+        "hdiExplanation": "Index is calculated based on three indicators: average life expectancy at birth, years of education (including mean years of education and expected years of education), and gross national income per capita.",
+        "hdiStandardsTitle": "Classification Standards",
+        "hdiStandardVeryHigh": "Very High",
+        "hdiStandardHigh": "High",
+        "hdiStandardMedium": "Medium",
+        "hdiStandardLow": "Low",
+        "disclaimer": "Data is for reference only, please refer to the official calculation.",
+        "inspiration": "This website is inspired by the 投胎抽卡機 @https://dweam.xyz/luck"
     },
     "RegionNames": {
         "CHE": "Switzerland",

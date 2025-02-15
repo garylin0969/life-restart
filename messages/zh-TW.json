@@ -10,7 +10,16 @@
         "percentage": "％",
         "reincarnationCount": "投胎次數",
         "reincarnationChinaCount": "投胎到中國次數",
-        "reincarnationIndiaCount": "投胎到印度次數"
+        "reincarnationIndiaCount": "投胎到印度次數",
+        "hdiExplanationTitle": "人類發展指數（HDI）",
+        "hdiExplanation": "指數值根據出生時的平均壽命、受教育年限（包括平均受教育年限和預期受教育年限）、人均國民總所得三項指標計算出。",
+        "hdiStandardsTitle": "分界標準",
+        "hdiStandardVeryHigh": "極高",
+        "hdiStandardHigh": "高",
+        "hdiStandardMedium": "中",
+        "hdiStandardLow": "低",
+        "disclaimer": "資料僅供參考，請以官方計算為主。",
+        "inspiration": "網站靈感參考自 投胎抽卡機@https://dweam.xyz/luck"
     },
     "RegionNames": {
         "CHE": "瑞士",
