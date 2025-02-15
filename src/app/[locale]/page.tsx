@@ -129,29 +129,6 @@ export default function HomePage() {
                         </p>
                     </CardContent>
                 </Card>
-                <div className="mt-4 p-4 border rounded-lg bg-gray-100 dark:bg-gray-800 dark:border-gray-700 flex-col flex gap-2">
-                    <h2 className="text-lg font-bold text-gray-900 dark:text-gray-100">{t('hdiExplanationTitle')}</h2>
-                    <p className="text-gray-700 dark:text-gray-300">{t('hdiExplanation')}</p>
-                    <h3 className="font-semibold text-gray-900 dark:text-gray-100">{t('hdiStandardsTitle')}</h3>
-                    <ul className="list-disc pl-5">
-                        <li className="text-gray-700 dark:text-gray-300">{t('hdiStandardVeryHigh')}</li>
-                        <li className="text-gray-700 dark:text-gray-300">{t('hdiStandardHigh')}</li>
-                        <li className="text-gray-700 dark:text-gray-300">{t('hdiStandardMedium')}</li>
-                        <li className="text-gray-700 dark:text-gray-300">{t('hdiStandardLow')}</li>
-                    </ul>
-                    <p className="mt-2 text-sm text-gray-600 dark:text-gray-400">{t('disclaimer')}</p>
-                    <p className="mt-1 text-sm text-gray-600 dark:text-gray-400">
-                        {t('inspiration')}
-                        <a
-                            className="font-semibold"
-                            href="https://dweam.xyz/luck"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            投胎抽卡機
-                        </a>
-                    </p>
-                </div>
             </div>
             <footer className="p-4 text-center">
                 <p className="text-gray-600 dark:text-gray-400">2025 Developed by Gary Lin</p>
