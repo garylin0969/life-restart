@@ -1,16 +1,10 @@
 import { clsx, type ClassValue } from 'clsx';
 import { twMerge } from 'tailwind-merge';
 import { regions } from '../../global_regions_data.json';
+import { Region } from '@/types';
 
 export function cn(...inputs: ClassValue[]) {
     return twMerge(clsx(inputs));
-}
-
-interface Region {
-    name: string;
-    hdi: number;
-    populationPercentage: number;
-    rank: number;
 }
 
 export function getRandomRegion(): Region {

@@ -1,0 +1,68 @@
+'use client';
+
+import { useTranslations } from 'next-intl';
+import { getRandomRegion } from '@/lib/utils';
+import { useEffect, useState } from 'react';
+import { Button } from '@/components/ui/button';
+import RegionCard from '@/components/region-card';
+import StatsCard from '@/components/stats-card';
+import { ReincarnationStats } from '@/types';
+
+const MainContent = () => {
+    const translate = useTranslations('HomePage');
+    const translateRegion = useTranslations('RegionNames');
+    const [currentRegion, setCurrentRegion] = useState<ReturnType<typeof getRandomRegion> | null>(null);
+    const [reincarnationStats, setReincarnationStats] = useState<ReincarnationStats>({
+        totalCount: 0,
+        chinaCount: 0,
+        indiaCount: 0,
+    });
+
+    useEffect(() => {
+        const storedStats = localStorage.getItem('counts');
+        if (storedStats) {
+            setReincarnationStats(JSON.parse(storedStats));
+        }
+    }, []);
+
+    const updateReincarnationStats = (newRegion: ReturnType<typeof getRandomRegion>) => {
+        setReincarnationStats((prevStats) => {
+            const updatedStats = {
+                totalCount: prevStats.totalCount + 1,
+                chinaCount: prevStats.chinaCount + (translateRegion(newRegion.name) === translateRegion('CHN') ? 1 : 0),
+                indiaCount: prevStats.indiaCount + (translateRegion(newRegion.name) === translateRegion('IND') ? 1 : 0),
+            };
+            localStorage.setItem('counts', JSON.stringify(updatedStats));
+            return updatedStats;
+        });
+    };
+
+    const handleRandomClick = () => {
+        const newRegion = getRandomRegion();
+        setCurrentRegion(newRegion);
+        updateReincarnationStats(newRegion);
+    };
+
+    const handleResetClick = () => {
+        localStorage.removeItem('counts');
+        setCurrentRegion(null);
+        setReincarnationStats({
+            totalCount: 0,
+            chinaCount: 0,
+            indiaCount: 0,
+        });
+    };
+
+    return (
+        <div className="flex-1 flex flex-col justify-center">
+            <RegionCard currentRegion={currentRegion} translateRegion={translateRegion} translate={translate} />
+            <div className="flex gap-4 justify-center my-6">
+                <Button onClick={handleRandomClick}>{translate('reincarnation')}</Button>
+                <Button onClick={handleResetClick}>{translate('reset')}</Button>
+            </div>
+            <StatsCard reincarnationStats={reincarnationStats} translate={translate} />
+        </div>
+    );
+};
+
+export default MainContent;
