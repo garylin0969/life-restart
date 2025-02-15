@@ -9,7 +9,6 @@ export function cn(...inputs: ClassValue[]) {
 interface Region {
     name: string;
     hdi: number;
-    lifeExpectancy: number;
     populationPercentage: number;
     rank: number;
 }
