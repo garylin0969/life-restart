@@ -6,13 +6,13 @@ import { getRandomRegion } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
 import RegionCard from '@/components/region-card';
 import Directions from '@/components/directions';
-import { ReincarnationStats } from '@/types';
+import { ReincarnationStatsI } from '@/types';
 
 const MainContent = () => {
     const translate = useTranslations('HomePage');
     const translateRegion = useTranslations('RegionNames');
     const [currentRegion, setCurrentRegion] = useState<ReturnType<typeof getRandomRegion> | null>(null);
-    const [reincarnationStats, setReincarnationStats] = useState<ReincarnationStats>({
+    const [reincarnationStats, setReincarnationStats] = useState<ReincarnationStatsI>({
         totalCount: 0,
         chinaCount: 0,
         indiaCount: 0,

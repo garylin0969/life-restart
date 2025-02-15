@@ -1,8 +1,8 @@
 import { Card, CardContent } from '@/components/ui/card';
-import { ReincarnationStats } from '@/types';
+import { ReincarnationStatsI } from '@/types';
 
 interface StatsCardProps {
-    reincarnationStats: ReincarnationStats;
+    reincarnationStats: ReincarnationStatsI;
     translate: (key: string) => string;
 }
 

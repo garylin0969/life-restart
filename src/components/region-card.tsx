@@ -1,10 +1,10 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Region, ReincarnationStats } from '@/types';
+import { RegionI, ReincarnationStatsI } from '@/types';
 import { cn } from '@/lib/utils';
 
 interface RegionCardProps {
-    reincarnationStats: ReincarnationStats;
-    currentRegion: Region | null;
+    reincarnationStats: ReincarnationStatsI;
+    currentRegion: RegionI | null;
     translateRegion: (name: string) => string;
     translate: (key: string) => string;
 }
