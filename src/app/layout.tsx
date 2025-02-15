@@ -19,7 +19,7 @@ export const metadata: Metadata = {
         description: 'Let your life be reincarnated.',
         images: [
             {
-                url: '/logo.svg',
+                url: '/_next/image?url=/logo.svg&w=1200&h=630',
                 width: 1200,
                 height: 630,
                 type: 'image/svg+xml', // 明確指定 MIME 類型
