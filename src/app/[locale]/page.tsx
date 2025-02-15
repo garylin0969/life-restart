@@ -55,39 +55,35 @@ export default function HomePage() {
     };
 
     return (
-        <div className="container mx-auto p-4">
+        <div className="container mx-auto p-6 min-h-screen">
             <div>
-                <div className="flex justify-between items-center mb-4">
-                    <h1 className="text-2xl font-bold">{t('title')}</h1>
+                <div className="flex justify-between items-center mb-6">
+                    <h1 className="text-3xl font-bold text-gray-800 dark:text-gray-200">{t('title')}</h1>
                     <div className="flex items-center gap-4">
                         <LanguageSelect />
                         <ThemeSwitch />
                     </div>
                 </div>
-                <div className="flex gap-4">
-                    <Button onClick={handleRandomClick} className="mb-4">
-                        {t('reincarnation')}
-                    </Button>
-                    <Button onClick={handleResetClick} className="mb-4">
-                        {t('reset')}
-                    </Button>
+                <div className="flex gap-4 mb-4">
+                    <Button onClick={handleRandomClick}>{t('reincarnation')}</Button>
+                    <Button onClick={handleResetClick}>{t('reset')}</Button>
                 </div>
-                <Card className="mb-4">
+                <Card className="mb-6 shadow-lg rounded-lg">
                     <CardHeader>
-                        <CardTitle className="text-center">
+                        <CardTitle className="text-center text-xl font-semibold text-gray-900 dark:text-gray-100">
                             {currentRegion?.name ? regionT(currentRegion.name) : '？'}
                         </CardTitle>
                     </CardHeader>
                     <CardContent className="gap-2 flex flex-col lg:flex-row justify-around">
                         <div className="grid gap-2">
                             <div>
-                                {t('rank')}: {currentRegion?.rank ?? '？'}
+                                {t('rank')}：{currentRegion?.rank ?? '？'}
                             </div>
                             <div>
-                                {t('hdi')}: {currentRegion?.hdi ?? '？'}
+                                {t('hdi')}：{currentRegion?.hdi ?? '？'}
                             </div>
                             <div>
-                                {t('rarity')}:
+                                {t('rarity')}：
                                 {currentRegion?.populationPercentage
                                     ? `${currentRegion.populationPercentage.toFixed(3)}${t('percentage')}`
                                     : '？'}
@@ -95,13 +91,13 @@ export default function HomePage() {
                         </div>
                         <div className="grid gap-2">
                             <div>
-                                {t('reincarnationCount')}: {reincarnationStats.totalCount}
+                                {t('reincarnationCount')}：{reincarnationStats.totalCount}
                             </div>
                             <div>
-                                {t('reincarnationChinaCount')}: {reincarnationStats.chinaCount}
+                                {t('reincarnationChinaCount')}：{reincarnationStats.chinaCount}
                             </div>
                             <div>
-                                {t('reincarnationIndiaCount')}: {reincarnationStats.indiaCount}
+                                {t('reincarnationIndiaCount')}：{reincarnationStats.indiaCount}
                             </div>
                         </div>
                     </CardContent>
@@ -117,7 +113,12 @@ export default function HomePage() {
                         <li className="text-gray-700 dark:text-gray-300">{t('hdiStandardLow')}</li>
                     </ul>
                     <p className="mt-2 text-sm text-gray-600 dark:text-gray-400">{t('disclaimer')}</p>
-                    <p className="mt-1 text-sm text-gray-600 dark:text-gray-400">{t('inspiration')}</p>
+                    <p className="mt-1 text-sm text-gray-600 dark:text-gray-400">
+                        {t('inspiration')}
+                        <a href="https://dweam.xyz/luck" target="_blank" rel="noopener noreferrer">
+                            投胎抽卡機
+                        </a>
+                    </p>
                 </div>
             </div>
             <footer className="mt-8 p-4 text-center">
@@ -126,7 +127,7 @@ export default function HomePage() {
                     <a href="https://github.com/garylin0969" target="_blank" rel="noopener noreferrer">
                         <FaGithub className="w-6 h-6 text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200" />
                     </a>
-                    <a href="https://www.linkedin.com/in/gary-lin-95723a247/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/gary-lin-95723a247" target="_blank" rel="noopener noreferrer">
                         <FaLinkedin className="w-6 h-6 text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200" />
                     </a>
                 </div>
