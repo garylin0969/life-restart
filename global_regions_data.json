@@ -1,1162 +1,1160 @@
-{
-    "regions": [
-        {
-            "name": "CHE",
-            "hdi": 0.967,
-            "populationPercentage": 0.11,
-            "rank": 1
-        },
-        {
-            "name": "NOR",
-            "hdi": 0.966,
-            "populationPercentage": 0.07,
-            "rank": 2
-        },
-        {
-            "name": "ISL",
-            "hdi": 0.959,
-            "populationPercentage": 0.004,
-            "rank": 3
-        },
-        {
-            "name": "HKG",
-            "hdi": 0.956,
-            "populationPercentage": 0.09,
-            "rank": 4
-        },
-        {
-            "name": "SWE",
-            "hdi": 0.952,
-            "populationPercentage": 0.12,
-            "rank": 5
-        },
-        {
-            "name": "DNK",
-            "hdi": 0.952,
-            "populationPercentage": 0.07,
-            "rank": 6
-        },
-        {
-            "name": "DEU",
-            "hdi": 0.95,
-            "populationPercentage": 1.03,
-            "rank": 7
-        },
-        {
-            "name": "IRL",
-            "hdi": 0.95,
-            "populationPercentage": 0.06,
-            "rank": 8
-        },
-        {
-            "name": "SGP",
-            "hdi": 0.949,
-            "populationPercentage": 0.07,
-            "rank": 9
-        },
-        {
-            "name": "AUS",
-            "hdi": 0.946,
-            "populationPercentage": 0.32,
-            "rank": 10
-        },
-        {
-            "name": "NLD",
-            "hdi": 0.946,
-            "populationPercentage": 0.03,
-            "rank": 11
-        },
-        {
-            "name": "BEL",
-            "hdi": 0.942,
-            "populationPercentage": 0.02,
-            "rank": 12
-        },
-        {
-            "name": "FIN",
-            "hdi": 0.942,
-            "populationPercentage": 0.01,
-            "rank": 12
-        },
-        {
-            "name": "LIE",
-            "hdi": 0.942,
-            "populationPercentage": 0.004,
-            "rank": 12
-        },
-        {
-            "name": "GBR",
-            "hdi": 0.94,
-            "populationPercentage": 0.06,
-            "rank": 15
-        },
-        {
-            "name": "NZL",
-            "hdi": 0.939,
-            "populationPercentage": 0.02,
-            "rank": 16
-        },
-        {
-            "name": "ARE",
-            "hdi": 0.937,
-            "populationPercentage": 0.02,
-            "rank": 17
-        },
-        {
-            "name": "CAN",
-            "hdi": 0.935,
-            "populationPercentage": 0.04,
-            "rank": 18
-        },
-        {
-            "name": "KOR",
-            "hdi": 0.929,
-            "populationPercentage": 0.06,
-            "rank": 19
-        },
-        {
-            "name": "USA",
-            "hdi": 0.927,
-            "populationPercentage": 4.2,
-            "rank": 20
-        },
-        {
-            "name": "LUX",
-            "hdi": 0.927,
-            "populationPercentage": 0.01,
-            "rank": 20
-        },
-        {
-            "name": "AUT",
-            "hdi": 0.926,
-            "populationPercentage": 0.01,
-            "rank": 22
-        },
-        {
-            "name": "SVN",
-            "hdi": 0.926,
-            "populationPercentage": 0.004,
-            "rank": 22
-        },
-        {
-            "name": "TWN",
-            "hdi": 0.926,
-            "populationPercentage": 0.3,
-            "rank": 22
-        },
-        {
-            "name": "JPN",
-            "hdi": 0.92,
-            "populationPercentage": 1.5,
-            "rank": 24
-        },
-        {
-            "name": "ISR",
-            "hdi": 0.915,
-            "populationPercentage": 0.1,
-            "rank": 25
-        },
-        {
-            "name": "MLT",
-            "hdi": 0.915,
-            "populationPercentage": 0.01,
-            "rank": 25
-        },
-        {
-            "name": "ESP",
-            "hdi": 0.911,
-            "populationPercentage": 0.02,
-            "rank": 27
-        },
-        {
-            "name": "FRA",
-            "hdi": 0.91,
-            "populationPercentage": 0.8,
-            "rank": 28
-        },
-        {
-            "name": "CYP",
-            "hdi": 0.907,
-            "populationPercentage": 0.01,
-            "rank": 29
-        },
-        {
-            "name": "ITA",
-            "hdi": 0.906,
-            "populationPercentage": 0.7,
-            "rank": 30
-        },
-        {
-            "name": "EST",
-            "hdi": 0.899,
-            "populationPercentage": 0.01,
-            "rank": 31
-        },
-        {
-            "name": "CZE",
-            "hdi": 0.895,
-            "populationPercentage": 0.1,
-            "rank": 32
-        },
-        {
-            "name": "GRC",
-            "hdi": 0.893,
-            "populationPercentage": 0.02,
-            "rank": 33
-        },
-        {
-            "name": "BHR",
-            "hdi": 0.888,
-            "populationPercentage": 0.01,
-            "rank": 34
-        },
-        {
-            "name": "AND",
-            "hdi": 0.884,
-            "populationPercentage": 0.004,
-            "rank": 35
-        },
-        {
-            "name": "POL",
-            "hdi": 0.881,
-            "populationPercentage": 0.5,
-            "rank": 36
-        },
-        {
-            "name": "LTU",
-            "hdi": 0.879,
-            "populationPercentage": 0.01,
-            "rank": 37
-        },
-        {
-            "name": "LVA",
-            "hdi": 0.879,
-            "populationPercentage": 0.01,
-            "rank": 37
-        },
-        {
-            "name": "HRV",
-            "hdi": 0.878,
-            "populationPercentage": 0.01,
-            "rank": 39
-        },
-        {
-            "name": "SAU",
-            "hdi": 0.875,
-            "populationPercentage": 0.02,
-            "rank": 40
-        },
-        {
-            "name": "QAT",
-            "hdi": 0.875,
-            "populationPercentage": 0.01,
-            "rank": 40
-        },
-        {
-            "name": "PRT",
-            "hdi": 0.874,
-            "populationPercentage": 0.01,
-            "rank": 42
-        },
-        {
-            "name": "SMR",
-            "hdi": 0.867,
-            "populationPercentage": 0.004,
-            "rank": 43
-        },
-        {
-            "name": "CHL",
-            "hdi": 0.86,
-            "populationPercentage": 0.02,
-            "rank": 44
-        },
-        {
-            "name": "TUR",
-            "hdi": 0.855,
-            "populationPercentage": 1,
-            "rank": 45
-        },
-        {
-            "name": "SVK",
-            "hdi": 0.855,
-            "populationPercentage": 0.01,
-            "rank": 45
-        },
-        {
-            "name": "HUN",
-            "hdi": 0.851,
-            "populationPercentage": 0.1,
-            "rank": 47
-        },
-        {
-            "name": "ARG",
-            "hdi": 0.849,
-            "populationPercentage": 0.6,
-            "rank": 48
-        },
-        {
-            "name": "KWT",
-            "hdi": 0.847,
-            "populationPercentage": 0.01,
-            "rank": 49
-        },
-        {
-            "name": "MNE",
-            "hdi": 0.844,
-            "populationPercentage": 0.01,
-            "rank": 50
-        },
-        {
-            "name": "KNA",
-            "hdi": 0.838,
-            "populationPercentage": 0.004,
-            "rank": 51
-        },
-        {
-            "name": "URY",
-            "hdi": 0.83,
-            "populationPercentage": 0.01,
-            "rank": 52
-        },
-        {
-            "name": "ROU",
-            "hdi": 0.827,
-            "populationPercentage": 0.01,
-            "rank": 53
-        },
-        {
-            "name": "ATG",
-            "hdi": 0.826,
-            "populationPercentage": 0.004,
-            "rank": 54
-        },
-        {
-            "name": "BRN",
-            "hdi": 0.823,
-            "populationPercentage": 0.004,
-            "rank": 55
-        },
-        {
-            "name": "RUS",
-            "hdi": 0.821,
-            "populationPercentage": 1.8,
-            "rank": 56
-        },
-        {
-            "name": "PAN",
-            "hdi": 0.82,
-            "populationPercentage": 0.01,
-            "rank": 57
-        },
-        {
-            "name": "BHS",
-            "hdi": 0.82,
-            "populationPercentage": 0.004,
-            "rank": 57
-        },
-        {
-            "name": "OMN",
-            "hdi": 0.819,
-            "populationPercentage": 0.01,
-            "rank": 59
-        },
-        {
-            "name": "GEO",
-            "hdi": 0.814,
-            "populationPercentage": 0.01,
-            "rank": 60
-        },
-        {
-            "name": "TTO",
-            "hdi": 0.814,
-            "populationPercentage": 0.004,
-            "rank": 60
-        },
-        {
-            "name": "BRB",
-            "hdi": 0.809,
-            "populationPercentage": 0.004,
-            "rank": 62
-        },
-        {
-            "name": "MYS",
-            "hdi": 0.807,
-            "populationPercentage": 0.4,
-            "rank": 63
-        },
-        {
-            "name": "CRI",
-            "hdi": 0.806,
-            "populationPercentage": 0.07,
-            "rank": 64
-        },
-        {
-            "name": "SRB",
-            "hdi": 0.805,
-            "populationPercentage": 0.08,
-            "rank": 65
-        },
-        {
-            "name": "THA",
-            "hdi": 0.803,
-            "populationPercentage": 0.8,
-            "rank": 66
-        },
-        {
-            "name": "KAZ",
-            "hdi": 0.802,
-            "populationPercentage": 0.2,
-            "rank": 67
-        },
-        {
-            "name": "SYC",
-            "hdi": 0.802,
-            "populationPercentage": 0.004,
-            "rank": 67
-        },
-        {
-            "name": "BLR",
-            "hdi": 0.801,
-            "populationPercentage": 0.1,
-            "rank": 69
-        },
-        {
-            "name": "BGR",
-            "hdi": 0.799,
-            "populationPercentage": 0.08,
-            "rank": 70
-        },
-        {
-            "name": "PLW",
-            "hdi": 0.797,
-            "populationPercentage": 0.0002,
-            "rank": 71
-        },
-        {
-            "name": "MUS",
-            "hdi": 0.796,
-            "populationPercentage": 0.004,
-            "rank": 72
-        },
-        {
-            "name": "GRD",
-            "hdi": 0.793,
-            "populationPercentage": 0.004,
-            "rank": 73
-        },
-        {
-            "name": "ALB",
-            "hdi": 0.789,
-            "populationPercentage": 0.01,
-            "rank": 74
-        },
-        {
-            "name": "CHN",
-            "hdi": 0.788,
-            "populationPercentage": 17.5,
-            "rank": 75
-        },
-        {
-            "name": "ARM",
-            "hdi": 0.786,
-            "populationPercentage": 0.01,
-            "rank": 76
-        },
-        {
-            "name": "MEX",
-            "hdi": 0.781,
-            "populationPercentage": 1.6,
-            "rank": 77
-        },
-        {
-            "name": "IRN",
-            "hdi": 0.78,
-            "populationPercentage": 1.1,
-            "rank": 78
-        },
-        {
-            "name": "LKA",
-            "hdi": 0.78,
-            "populationPercentage": 0.3,
-            "rank": 78
-        },
-        {
-            "name": "BIH",
-            "hdi": 0.779,
-            "populationPercentage": 0.01,
-            "rank": 80
-        },
-        {
-            "name": "VCT",
-            "hdi": 0.772,
-            "populationPercentage": 0.06,
-            "rank": 81
-        },
-        {
-            "name": "DOM",
-            "hdi": 0.766,
-            "populationPercentage": 0.01,
-            "rank": 82
-        },
-        {
-            "name": "ECU",
-            "hdi": 0.765,
-            "populationPercentage": 0.2,
-            "rank": 83
-        },
-        {
-            "name": "MKD",
-            "hdi": 0.765,
-            "populationPercentage": 0.01,
-            "rank": 83
-        },
-        {
-            "name": "CUB",
-            "hdi": 0.764,
-            "populationPercentage": 0.1,
-            "rank": 85
-        },
-        {
-            "name": "MDA",
-            "hdi": 0.763,
-            "populationPercentage": 0.01,
-            "rank": 86
-        },
-        {
-            "name": "PER",
-            "hdi": 0.762,
-            "populationPercentage": 0.4,
-            "rank": 87
-        },
-        {
-            "name": "MDV",
-            "hdi": 0.762,
-            "populationPercentage": 0.004,
-            "rank": 87
-        },
-        {
-            "name": "BRA",
-            "hdi": 0.76,
-            "populationPercentage": 2.6,
-            "rank": 89
-        },
-        {
-            "name": "AZE",
-            "hdi": 0.76,
-            "populationPercentage": 0.1,
-            "rank": 89
-        },
-        {
-            "name": "COL",
-            "hdi": 0.758,
-            "populationPercentage": 0.6,
-            "rank": 91
-        },
-        {
-            "name": "LBY",
-            "hdi": 0.746,
-            "populationPercentage": 0.09,
-            "rank": 92
-        },
-        {
-            "name": "DZA",
-            "hdi": 0.745,
-            "populationPercentage": 0.01,
-            "rank": 93
-        },
-        {
-            "name": "TKM",
-            "hdi": 0.744,
-            "populationPercentage": 0.01,
-            "rank": 94
-        },
-        {
-            "name": "GUY",
-            "hdi": 0.742,
-            "populationPercentage": 0.004,
-            "rank": 95
-        },
-        {
-            "name": "MNG",
-            "hdi": 0.741,
-            "populationPercentage": 0.004,
-            "rank": 96
-        },
-        {
-            "name": "DMA",
-            "hdi": 0.74,
-            "populationPercentage": 0.004,
-            "rank": 97
-        },
-        {
-            "name": "TON",
-            "hdi": 0.739,
-            "populationPercentage": 0.004,
-            "rank": 98
-        },
-        {
-            "name": "JOR",
-            "hdi": 0.736,
-            "populationPercentage": 0.1,
-            "rank": 99
-        },
-        {
-            "name": "UKR",
-            "hdi": 0.734,
-            "populationPercentage": 0.4,
-            "rank": 100
-        },
-        {
-            "name": "TUN",
-            "hdi": 0.732,
-            "populationPercentage": 0.1,
-            "rank": 101
-        },
-        {
-            "name": "PRY",
-            "hdi": 0.731,
-            "populationPercentage": 0.4,
-            "rank": 102
-        },
-        {
-            "name": "MHL",
-            "hdi": 0.731,
-            "populationPercentage": 0.004,
-            "rank": 102
-        },
-        {
-            "name": "FJI",
-            "hdi": 0.729,
-            "populationPercentage": 0.004,
-            "rank": 104
-        },
-        {
-            "name": "EGY",
-            "hdi": 0.728,
-            "populationPercentage": 1.3,
-            "rank": 105
-        },
-        {
-            "name": "UZB",
-            "hdi": 0.727,
-            "populationPercentage": 0.01,
-            "rank": 106
-        },
-        {
-            "name": "VNM",
-            "hdi": 0.726,
-            "populationPercentage": 1.2,
-            "rank": 107
-        },
-        {
-            "name": "LCA",
-            "hdi": 0.725,
-            "populationPercentage": 0.004,
-            "rank": 108
-        },
-        {
-            "name": "LBN",
-            "hdi": 0.723,
-            "populationPercentage": 0.07,
-            "rank": 109
-        },
-        {
-            "name": "ZAF",
-            "hdi": 0.717,
-            "populationPercentage": 0.8,
-            "rank": 110
-        },
-        {
-            "name": "PSE",
-            "hdi": 0.716,
-            "populationPercentage": 0.01,
-            "rank": 111
-        },
-        {
-            "name": "IDN",
-            "hdi": 0.713,
-            "populationPercentage": 3.5,
-            "rank": 112
-        },
-        {
-            "name": "PHL",
-            "hdi": 0.71,
-            "populationPercentage": 1.4,
-            "rank": 113
-        },
-        {
-            "name": "BWA",
-            "hdi": 0.708,
-            "populationPercentage": 0.01,
-            "rank": 114
-        },
-        {
-            "name": "JAM",
-            "hdi": 0.706,
-            "populationPercentage": 0.01,
-            "rank": 115
-        },
-        {
-            "name": "WSM",
-            "hdi": 0.702,
-            "populationPercentage": 0.004,
-            "rank": 116
-        },
-        {
-            "name": "KGZ",
-            "hdi": 0.701,
-            "populationPercentage": 0.09,
-            "rank": 117
-        },
-        {
-            "name": "BLZ",
-            "hdi": 0.7,
-            "populationPercentage": 0.004,
-            "rank": 118
-        },
-        {
-            "name": "VEN",
-            "hdi": 0.699,
-            "populationPercentage": 0.4,
-            "rank": 119
-        },
-        {
-            "name": "MAR",
-            "hdi": 0.698,
-            "populationPercentage": 0.01,
-            "rank": 120
-        },
-        {
-            "name": "BOL",
-            "hdi": 0.698,
-            "populationPercentage": 0.1,
-            "rank": 120
-        },
-        {
-            "name": "NRU",
-            "hdi": 0.696,
-            "populationPercentage": 0.004,
-            "rank": 122
-        },
-        {
-            "name": "GAB",
-            "hdi": 0.693,
-            "populationPercentage": 0.01,
-            "rank": 123
-        },
-        {
-            "name": "SUR",
-            "hdi": 0.69,
-            "populationPercentage": 0.004,
-            "rank": 124
-        },
-        {
-            "name": "BTN",
-            "hdi": 0.681,
-            "populationPercentage": 0.004,
-            "rank": 125
-        },
-        {
-            "name": "TJK",
-            "hdi": 0.679,
-            "populationPercentage": 0.1,
-            "rank": 126
-        },
-        {
-            "name": "SLV",
-            "hdi": 0.674,
-            "populationPercentage": 0.4,
-            "rank": 127
-        },
-        {
-            "name": "IRQ",
-            "hdi": 0.673,
-            "populationPercentage": 0.5,
-            "rank": 128
-        },
-        {
-            "name": "BGD",
-            "hdi": 0.67,
-            "populationPercentage": 2.1,
-            "rank": 129
-        },
-        {
-            "name": "NIC",
-            "hdi": 0.669,
-            "populationPercentage": 0.08,
-            "rank": 130
-        },
-        {
-            "name": "CPV",
-            "hdi": 0.661,
-            "populationPercentage": 0.004,
-            "rank": 131
-        },
-        {
-            "name": "TUV",
-            "hdi": 0.653,
-            "populationPercentage": 0.004,
-            "rank": 132
-        },
-        {
-            "name": "GNQ",
-            "hdi": 0.65,
-            "populationPercentage": 0.01,
-            "rank": 133
-        },
-        {
-            "name": "IND",
-            "hdi": 0.644,
-            "populationPercentage": 17.5,
-            "rank": 134
-        },
-        {
-            "name": "FSM",
-            "hdi": 0.634,
-            "populationPercentage": 0.01,
-            "rank": 135
-        },
-        {
-            "name": "GTM",
-            "hdi": 0.629,
-            "populationPercentage": 0.01,
-            "rank": 136
-        },
-        {
-            "name": "KIR",
-            "hdi": 0.628,
-            "populationPercentage": 0.004,
-            "rank": 137
-        },
-        {
-            "name": "HND",
-            "hdi": 0.624,
-            "populationPercentage": 0.1,
-            "rank": 138
-        },
-        {
-            "name": "LAO",
-            "hdi": 0.62,
-            "populationPercentage": 0.09,
-            "rank": 139
-        },
-        {
-            "name": "VUT",
-            "hdi": 0.614,
-            "populationPercentage": 0.01,
-            "rank": 140
-        },
-        {
-            "name": "STP",
-            "hdi": 0.613,
-            "populationPercentage": 0.004,
-            "rank": 141
-        },
-        {
-            "name": "NAM",
-            "hdi": 0.61,
-            "populationPercentage": 0.01,
-            "rank": 142
-        },
-        {
-            "name": "SWZ",
-            "hdi": 0.61,
-            "populationPercentage": 0.004,
-            "rank": 142
-        },
-        {
-            "name": "MMR",
-            "hdi": 0.608,
-            "populationPercentage": 0.01,
-            "rank": 144
-        },
-        {
-            "name": "GHA",
-            "hdi": 0.602,
-            "populationPercentage": 0.01,
-            "rank": 145
-        },
-        {
-            "name": "KEN",
-            "hdi": 0.601,
-            "populationPercentage": 0.01,
-            "rank": 146
-        },
-        {
-            "name": "NPL",
-            "hdi": 0.601,
-            "populationPercentage": 0.01,
-            "rank": 146
-        },
-        {
-            "name": "KHM",
-            "hdi": 0.6,
-            "populationPercentage": 0.01,
-            "rank": 148
-        },
-        {
-            "name": "AGO",
-            "hdi": 0.591,
-            "populationPercentage": 0.01,
-            "rank": 149
-        },
-        {
-            "name": "CMR",
-            "hdi": 0.587,
-            "populationPercentage": 0.01,
-            "rank": 150
-        },
-        {
-            "name": "COM",
-            "hdi": 0.586,
-            "populationPercentage": 0.004,
-            "rank": 151
-        },
-        {
-            "name": "ZMB",
-            "hdi": 0.569,
-            "populationPercentage": 0.01,
-            "rank": 152
-        },
-        {
-            "name": "PNG",
-            "hdi": 0.568,
-            "populationPercentage": 0.01,
-            "rank": 153
-        },
-        {
-            "name": "TLS",
-            "hdi": 0.566,
-            "populationPercentage": 0.004,
-            "rank": 154
-        },
-        {
-            "name": "SLB",
-            "hdi": 0.562,
-            "populationPercentage": 0.004,
-            "rank": 155
-        },
-        {
-            "name": "SYR",
-            "hdi": 0.557,
-            "populationPercentage": 0.01,
-            "rank": 156
-        },
-        {
-            "name": "HTI",
-            "hdi": 0.552,
-            "populationPercentage": 0.01,
-            "rank": 157
-        },
-        {
-            "name": "UGA",
-            "hdi": 0.55,
-            "populationPercentage": 0.01,
-            "rank": 158
-        },
-        {
-            "name": "ZWE",
-            "hdi": 0.55,
-            "populationPercentage": 0.01,
-            "rank": 158
-        },
-        {
-            "name": "NGA",
-            "hdi": 0.548,
-            "populationPercentage": 2.7,
-            "rank": 160
-        },
-        {
-            "name": "RWA",
-            "hdi": 0.548,
-            "populationPercentage": 0.01,
-            "rank": 160
-        },
-        {
-            "name": "TGO",
-            "hdi": 0.547,
-            "populationPercentage": 0.01,
-            "rank": 162
-        },
-        {
-            "name": "PAK",
-            "hdi": 0.54,
-            "populationPercentage": 3,
-            "rank": 163
-        },
-        {
-            "name": "MRT",
-            "hdi": 0.54,
-            "populationPercentage": 0.01,
-            "rank": 163
-        },
-        {
-            "name": "CIV",
-            "hdi": 0.534,
-            "populationPercentage": 0.01,
-            "rank": 165
-        },
-        {
-            "name": "TZA",
-            "hdi": 0.532,
-            "populationPercentage": 0.8,
-            "rank": 166
-        },
-        {
-            "name": "LSO",
-            "hdi": 0.521,
-            "populationPercentage": 0.01,
-            "rank": 167
-        },
-        {
-            "name": "SEN",
-            "hdi": 0.517,
-            "populationPercentage": 0.01,
-            "rank": 168
-        },
-        {
-            "name": "SDN",
-            "hdi": 0.516,
-            "populationPercentage": 0.6,
-            "rank": 169
-        },
-        {
-            "name": "DJI",
-            "hdi": 0.515,
-            "populationPercentage": 0.01,
-            "rank": 170
-        },
-        {
-            "name": "MWI",
-            "hdi": 0.508,
-            "populationPercentage": 0.01,
-            "rank": 171
-        },
-        {
-            "name": "BEN",
-            "hdi": 0.504,
-            "populationPercentage": 0.01,
-            "rank": 172
-        },
-        {
-            "name": "GMB",
-            "hdi": 0.495,
-            "populationPercentage": 0.01,
-            "rank": 173
-        },
-        {
-            "name": "ERI",
-            "hdi": 0.493,
-            "populationPercentage": 0.01,
-            "rank": 174
-        },
-        {
-            "name": "ETH",
-            "hdi": 0.492,
-            "populationPercentage": 1.3,
-            "rank": 175
-        },
-        {
-            "name": "MDG",
-            "hdi": 0.487,
-            "populationPercentage": 0.01,
-            "rank": 176
-        },
-        {
-            "name": "LBR",
-            "hdi": 0.487,
-            "populationPercentage": 0.01,
-            "rank": 176
-        },
-        {
-            "name": "GNB",
-            "hdi": 0.483,
-            "populationPercentage": 0.01,
-            "rank": 178
-        },
-        {
-            "name": "COD",
-            "hdi": 0.481,
-            "populationPercentage": 1.3,
-            "rank": 179
-        },
-        {
-            "name": "GIN",
-            "hdi": 0.471,
-            "populationPercentage": 0.01,
-            "rank": 180
-        },
-        {
-            "name": "AFG",
-            "hdi": 0.462,
-            "populationPercentage": 0.5,
-            "rank": 181
-        },
-        {
-            "name": "MOZ",
-            "hdi": 0.461,
-            "populationPercentage": 0.01,
-            "rank": 182
-        },
-        {
-            "name": "SLE",
-            "hdi": 0.458,
-            "populationPercentage": 0.01,
-            "rank": 183
-        },
-        {
-            "name": "BFA",
-            "hdi": 0.438,
-            "populationPercentage": 0.01,
-            "rank": 184
-        },
-        {
-            "name": "YEM",
-            "hdi": 0.424,
-            "populationPercentage": 0.01,
-            "rank": 185
-        },
-        {
-            "name": "BDI",
-            "hdi": 0.42,
-            "populationPercentage": 0.01,
-            "rank": 186
-        },
-        {
-            "name": "MLI",
-            "hdi": 0.41,
-            "populationPercentage": 0.27,
-            "rank": 187
-        },
-        {
-            "name": "NER",
-            "hdi": 0.394,
-            "populationPercentage": 0.3,
-            "rank": 188
-        },
-        {
-            "name": "TCD",
-            "hdi": 0.394,
-            "populationPercentage": 0.01,
-            "rank": 188
-        },
-        {
-            "name": "CAF",
-            "hdi": 0.387,
-            "populationPercentage": 0.01,
-            "rank": 190
-        },
-        {
-            "name": "SSD",
-            "hdi": 0.381,
-            "populationPercentage": 0.2,
-            "rank": 191
-        },
-        {
-            "name": "SOM",
-            "hdi": 0.38,
-            "populationPercentage": 0.01,
-            "rank": 192
-        }
-    ]
-}
+[
+    {
+        "name": "CHE",
+        "hdi": 0.967,
+        "populationPercentage": 0.11,
+        "rank": 1
+    },
+    {
+        "name": "NOR",
+        "hdi": 0.966,
+        "populationPercentage": 0.07,
+        "rank": 2
+    },
+    {
+        "name": "ISL",
+        "hdi": 0.959,
+        "populationPercentage": 0.004,
+        "rank": 3
+    },
+    {
+        "name": "HKG",
+        "hdi": 0.956,
+        "populationPercentage": 0.09,
+        "rank": 4
+    },
+    {
+        "name": "SWE",
+        "hdi": 0.952,
+        "populationPercentage": 0.12,
+        "rank": 5
+    },
+    {
+        "name": "DNK",
+        "hdi": 0.952,
+        "populationPercentage": 0.07,
+        "rank": 6
+    },
+    {
+        "name": "DEU",
+        "hdi": 0.95,
+        "populationPercentage": 1.03,
+        "rank": 7
+    },
+    {
+        "name": "IRL",
+        "hdi": 0.95,
+        "populationPercentage": 0.06,
+        "rank": 8
+    },
+    {
+        "name": "SGP",
+        "hdi": 0.949,
+        "populationPercentage": 0.07,
+        "rank": 9
+    },
+    {
+        "name": "AUS",
+        "hdi": 0.946,
+        "populationPercentage": 0.32,
+        "rank": 10
+    },
+    {
+        "name": "NLD",
+        "hdi": 0.946,
+        "populationPercentage": 0.03,
+        "rank": 11
+    },
+    {
+        "name": "BEL",
+        "hdi": 0.942,
+        "populationPercentage": 0.02,
+        "rank": 12
+    },
+    {
+        "name": "FIN",
+        "hdi": 0.942,
+        "populationPercentage": 0.01,
+        "rank": 12
+    },
+    {
+        "name": "LIE",
+        "hdi": 0.942,
+        "populationPercentage": 0.004,
+        "rank": 12
+    },
+    {
+        "name": "GBR",
+        "hdi": 0.94,
+        "populationPercentage": 0.06,
+        "rank": 15
+    },
+    {
+        "name": "NZL",
+        "hdi": 0.939,
+        "populationPercentage": 0.02,
+        "rank": 16
+    },
+    {
+        "name": "ARE",
+        "hdi": 0.937,
+        "populationPercentage": 0.02,
+        "rank": 17
+    },
+    {
+        "name": "CAN",
+        "hdi": 0.935,
+        "populationPercentage": 0.04,
+        "rank": 18
+    },
+    {
+        "name": "KOR",
+        "hdi": 0.929,
+        "populationPercentage": 0.06,
+        "rank": 19
+    },
+    {
+        "name": "USA",
+        "hdi": 0.927,
+        "populationPercentage": 4.2,
+        "rank": 20
+    },
+    {
+        "name": "LUX",
+        "hdi": 0.927,
+        "populationPercentage": 0.01,
+        "rank": 20
+    },
+    {
+        "name": "AUT",
+        "hdi": 0.926,
+        "populationPercentage": 0.01,
+        "rank": 22
+    },
+    {
+        "name": "SVN",
+        "hdi": 0.926,
+        "populationPercentage": 0.004,
+        "rank": 22
+    },
+    {
+        "name": "TWN",
+        "hdi": 0.926,
+        "populationPercentage": 0.3,
+        "rank": 22
+    },
+    {
+        "name": "JPN",
+        "hdi": 0.92,
+        "populationPercentage": 1.5,
+        "rank": 24
+    },
+    {
+        "name": "ISR",
+        "hdi": 0.915,
+        "populationPercentage": 0.1,
+        "rank": 25
+    },
+    {
+        "name": "MLT",
+        "hdi": 0.915,
+        "populationPercentage": 0.01,
+        "rank": 25
+    },
+    {
+        "name": "ESP",
+        "hdi": 0.911,
+        "populationPercentage": 0.02,
+        "rank": 27
+    },
+    {
+        "name": "FRA",
+        "hdi": 0.91,
+        "populationPercentage": 0.8,
+        "rank": 28
+    },
+    {
+        "name": "CYP",
+        "hdi": 0.907,
+        "populationPercentage": 0.01,
+        "rank": 29
+    },
+    {
+        "name": "ITA",
+        "hdi": 0.906,
+        "populationPercentage": 0.7,
+        "rank": 30
+    },
+    {
+        "name": "EST",
+        "hdi": 0.899,
+        "populationPercentage": 0.01,
+        "rank": 31
+    },
+    {
+        "name": "CZE",
+        "hdi": 0.895,
+        "populationPercentage": 0.1,
+        "rank": 32
+    },
+    {
+        "name": "GRC",
+        "hdi": 0.893,
+        "populationPercentage": 0.02,
+        "rank": 33
+    },
+    {
+        "name": "BHR",
+        "hdi": 0.888,
+        "populationPercentage": 0.01,
+        "rank": 34
+    },
+    {
+        "name": "AND",
+        "hdi": 0.884,
+        "populationPercentage": 0.004,
+        "rank": 35
+    },
+    {
+        "name": "POL",
+        "hdi": 0.881,
+        "populationPercentage": 0.5,
+        "rank": 36
+    },
+    {
+        "name": "LTU",
+        "hdi": 0.879,
+        "populationPercentage": 0.01,
+        "rank": 37
+    },
+    {
+        "name": "LVA",
+        "hdi": 0.879,
+        "populationPercentage": 0.01,
+        "rank": 37
+    },
+    {
+        "name": "HRV",
+        "hdi": 0.878,
+        "populationPercentage": 0.01,
+        "rank": 39
+    },
+    {
+        "name": "SAU",
+        "hdi": 0.875,
+        "populationPercentage": 0.02,
+        "rank": 40
+    },
+    {
+        "name": "QAT",
+        "hdi": 0.875,
+        "populationPercentage": 0.01,
+        "rank": 40
+    },
+    {
+        "name": "PRT",
+        "hdi": 0.874,
+        "populationPercentage": 0.01,
+        "rank": 42
+    },
+    {
+        "name": "SMR",
+        "hdi": 0.867,
+        "populationPercentage": 0.004,
+        "rank": 43
+    },
+    {
+        "name": "CHL",
+        "hdi": 0.86,
+        "populationPercentage": 0.02,
+        "rank": 44
+    },
+    {
+        "name": "TUR",
+        "hdi": 0.855,
+        "populationPercentage": 1,
+        "rank": 45
+    },
+    {
+        "name": "SVK",
+        "hdi": 0.855,
+        "populationPercentage": 0.01,
+        "rank": 45
+    },
+    {
+        "name": "HUN",
+        "hdi": 0.851,
+        "populationPercentage": 0.1,
+        "rank": 47
+    },
+    {
+        "name": "ARG",
+        "hdi": 0.849,
+        "populationPercentage": 0.6,
+        "rank": 48
+    },
+    {
+        "name": "KWT",
+        "hdi": 0.847,
+        "populationPercentage": 0.01,
+        "rank": 49
+    },
+    {
+        "name": "MNE",
+        "hdi": 0.844,
+        "populationPercentage": 0.01,
+        "rank": 50
+    },
+    {
+        "name": "KNA",
+        "hdi": 0.838,
+        "populationPercentage": 0.004,
+        "rank": 51
+    },
+    {
+        "name": "URY",
+        "hdi": 0.83,
+        "populationPercentage": 0.01,
+        "rank": 52
+    },
+    {
+        "name": "ROU",
+        "hdi": 0.827,
+        "populationPercentage": 0.01,
+        "rank": 53
+    },
+    {
+        "name": "ATG",
+        "hdi": 0.826,
+        "populationPercentage": 0.004,
+        "rank": 54
+    },
+    {
+        "name": "BRN",
+        "hdi": 0.823,
+        "populationPercentage": 0.004,
+        "rank": 55
+    },
+    {
+        "name": "RUS",
+        "hdi": 0.821,
+        "populationPercentage": 1.8,
+        "rank": 56
+    },
+    {
+        "name": "PAN",
+        "hdi": 0.82,
+        "populationPercentage": 0.01,
+        "rank": 57
+    },
+    {
+        "name": "BHS",
+        "hdi": 0.82,
+        "populationPercentage": 0.004,
+        "rank": 57
+    },
+    {
+        "name": "OMN",
+        "hdi": 0.819,
+        "populationPercentage": 0.01,
+        "rank": 59
+    },
+    {
+        "name": "GEO",
+        "hdi": 0.814,
+        "populationPercentage": 0.01,
+        "rank": 60
+    },
+    {
+        "name": "TTO",
+        "hdi": 0.814,
+        "populationPercentage": 0.004,
+        "rank": 60
+    },
+    {
+        "name": "BRB",
+        "hdi": 0.809,
+        "populationPercentage": 0.004,
+        "rank": 62
+    },
+    {
+        "name": "MYS",
+        "hdi": 0.807,
+        "populationPercentage": 0.4,
+        "rank": 63
+    },
+    {
+        "name": "CRI",
+        "hdi": 0.806,
+        "populationPercentage": 0.07,
+        "rank": 64
+    },
+    {
+        "name": "SRB",
+        "hdi": 0.805,
+        "populationPercentage": 0.08,
+        "rank": 65
+    },
+    {
+        "name": "THA",
+        "hdi": 0.803,
+        "populationPercentage": 0.8,
+        "rank": 66
+    },
+    {
+        "name": "KAZ",
+        "hdi": 0.802,
+        "populationPercentage": 0.2,
+        "rank": 67
+    },
+    {
+        "name": "SYC",
+        "hdi": 0.802,
+        "populationPercentage": 0.004,
+        "rank": 67
+    },
+    {
+        "name": "BLR",
+        "hdi": 0.801,
+        "populationPercentage": 0.1,
+        "rank": 69
+    },
+    {
+        "name": "BGR",
+        "hdi": 0.799,
+        "populationPercentage": 0.08,
+        "rank": 70
+    },
+    {
+        "name": "PLW",
+        "hdi": 0.797,
+        "populationPercentage": 0.0002,
+        "rank": 71
+    },
+    {
+        "name": "MUS",
+        "hdi": 0.796,
+        "populationPercentage": 0.004,
+        "rank": 72
+    },
+    {
+        "name": "GRD",
+        "hdi": 0.793,
+        "populationPercentage": 0.004,
+        "rank": 73
+    },
+    {
+        "name": "ALB",
+        "hdi": 0.789,
+        "populationPercentage": 0.01,
+        "rank": 74
+    },
+    {
+        "name": "CHN",
+        "hdi": 0.788,
+        "populationPercentage": 17.5,
+        "rank": 75
+    },
+    {
+        "name": "ARM",
+        "hdi": 0.786,
+        "populationPercentage": 0.01,
+        "rank": 76
+    },
+    {
+        "name": "MEX",
+        "hdi": 0.781,
+        "populationPercentage": 1.6,
+        "rank": 77
+    },
+    {
+        "name": "IRN",
+        "hdi": 0.78,
+        "populationPercentage": 1.1,
+        "rank": 78
+    },
+    {
+        "name": "LKA",
+        "hdi": 0.78,
+        "populationPercentage": 0.3,
+        "rank": 78
+    },
+    {
+        "name": "BIH",
+        "hdi": 0.779,
+        "populationPercentage": 0.01,
+        "rank": 80
+    },
+    {
+        "name": "VCT",
+        "hdi": 0.772,
+        "populationPercentage": 0.06,
+        "rank": 81
+    },
+    {
+        "name": "DOM",
+        "hdi": 0.766,
+        "populationPercentage": 0.01,
+        "rank": 82
+    },
+    {
+        "name": "ECU",
+        "hdi": 0.765,
+        "populationPercentage": 0.2,
+        "rank": 83
+    },
+    {
+        "name": "MKD",
+        "hdi": 0.765,
+        "populationPercentage": 0.01,
+        "rank": 83
+    },
+    {
+        "name": "CUB",
+        "hdi": 0.764,
+        "populationPercentage": 0.1,
+        "rank": 85
+    },
+    {
+        "name": "MDA",
+        "hdi": 0.763,
+        "populationPercentage": 0.01,
+        "rank": 86
+    },
+    {
+        "name": "PER",
+        "hdi": 0.762,
+        "populationPercentage": 0.4,
+        "rank": 87
+    },
+    {
+        "name": "MDV",
+        "hdi": 0.762,
+        "populationPercentage": 0.004,
+        "rank": 87
+    },
+    {
+        "name": "BRA",
+        "hdi": 0.76,
+        "populationPercentage": 2.6,
+        "rank": 89
+    },
+    {
+        "name": "AZE",
+        "hdi": 0.76,
+        "populationPercentage": 0.1,
+        "rank": 89
+    },
+    {
+        "name": "COL",
+        "hdi": 0.758,
+        "populationPercentage": 0.6,
+        "rank": 91
+    },
+    {
+        "name": "LBY",
+        "hdi": 0.746,
+        "populationPercentage": 0.09,
+        "rank": 92
+    },
+    {
+        "name": "DZA",
+        "hdi": 0.745,
+        "populationPercentage": 0.01,
+        "rank": 93
+    },
+    {
+        "name": "TKM",
+        "hdi": 0.744,
+        "populationPercentage": 0.01,
+        "rank": 94
+    },
+    {
+        "name": "GUY",
+        "hdi": 0.742,
+        "populationPercentage": 0.004,
+        "rank": 95
+    },
+    {
+        "name": "MNG",
+        "hdi": 0.741,
+        "populationPercentage": 0.004,
+        "rank": 96
+    },
+    {
+        "name": "DMA",
+        "hdi": 0.74,
+        "populationPercentage": 0.004,
+        "rank": 97
+    },
+    {
+        "name": "TON",
+        "hdi": 0.739,
+        "populationPercentage": 0.004,
+        "rank": 98
+    },
+    {
+        "name": "JOR",
+        "hdi": 0.736,
+        "populationPercentage": 0.1,
+        "rank": 99
+    },
+    {
+        "name": "UKR",
+        "hdi": 0.734,
+        "populationPercentage": 0.4,
+        "rank": 100
+    },
+    {
+        "name": "TUN",
+        "hdi": 0.732,
+        "populationPercentage": 0.1,
+        "rank": 101
+    },
+    {
+        "name": "PRY",
+        "hdi": 0.731,
+        "populationPercentage": 0.4,
+        "rank": 102
+    },
+    {
+        "name": "MHL",
+        "hdi": 0.731,
+        "populationPercentage": 0.004,
+        "rank": 102
+    },
+    {
+        "name": "FJI",
+        "hdi": 0.729,
+        "populationPercentage": 0.004,
+        "rank": 104
+    },
+    {
+        "name": "EGY",
+        "hdi": 0.728,
+        "populationPercentage": 1.3,
+        "rank": 105
+    },
+    {
+        "name": "UZB",
+        "hdi": 0.727,
+        "populationPercentage": 0.01,
+        "rank": 106
+    },
+    {
+        "name": "VNM",
+        "hdi": 0.726,
+        "populationPercentage": 1.2,
+        "rank": 107
+    },
+    {
+        "name": "LCA",
+        "hdi": 0.725,
+        "populationPercentage": 0.004,
+        "rank": 108
+    },
+    {
+        "name": "LBN",
+        "hdi": 0.723,
+        "populationPercentage": 0.07,
+        "rank": 109
+    },
+    {
+        "name": "ZAF",
+        "hdi": 0.717,
+        "populationPercentage": 0.8,
+        "rank": 110
+    },
+    {
+        "name": "PSE",
+        "hdi": 0.716,
+        "populationPercentage": 0.01,
+        "rank": 111
+    },
+    {
+        "name": "IDN",
+        "hdi": 0.713,
+        "populationPercentage": 3.5,
+        "rank": 112
+    },
+    {
+        "name": "PHL",
+        "hdi": 0.71,
+        "populationPercentage": 1.4,
+        "rank": 113
+    },
+    {
+        "name": "BWA",
+        "hdi": 0.708,
+        "populationPercentage": 0.01,
+        "rank": 114
+    },
+    {
+        "name": "JAM",
+        "hdi": 0.706,
+        "populationPercentage": 0.01,
+        "rank": 115
+    },
+    {
+        "name": "WSM",
+        "hdi": 0.702,
+        "populationPercentage": 0.004,
+        "rank": 116
+    },
+    {
+        "name": "KGZ",
+        "hdi": 0.701,
+        "populationPercentage": 0.09,
+        "rank": 117
+    },
+    {
+        "name": "BLZ",
+        "hdi": 0.7,
+        "populationPercentage": 0.004,
+        "rank": 118
+    },
+    {
+        "name": "VEN",
+        "hdi": 0.699,
+        "populationPercentage": 0.4,
+        "rank": 119
+    },
+    {
+        "name": "MAR",
+        "hdi": 0.698,
+        "populationPercentage": 0.01,
+        "rank": 120
+    },
+    {
+        "name": "BOL",
+        "hdi": 0.698,
+        "populationPercentage": 0.1,
+        "rank": 120
+    },
+    {
+        "name": "NRU",
+        "hdi": 0.696,
+        "populationPercentage": 0.004,
+        "rank": 122
+    },
+    {
+        "name": "GAB",
+        "hdi": 0.693,
+        "populationPercentage": 0.01,
+        "rank": 123
+    },
+    {
+        "name": "SUR",
+        "hdi": 0.69,
+        "populationPercentage": 0.004,
+        "rank": 124
+    },
+    {
+        "name": "BTN",
+        "hdi": 0.681,
+        "populationPercentage": 0.004,
+        "rank": 125
+    },
+    {
+        "name": "TJK",
+        "hdi": 0.679,
+        "populationPercentage": 0.1,
+        "rank": 126
+    },
+    {
+        "name": "SLV",
+        "hdi": 0.674,
+        "populationPercentage": 0.4,
+        "rank": 127
+    },
+    {
+        "name": "IRQ",
+        "hdi": 0.673,
+        "populationPercentage": 0.5,
+        "rank": 128
+    },
+    {
+        "name": "BGD",
+        "hdi": 0.67,
+        "populationPercentage": 2.1,
+        "rank": 129
+    },
+    {
+        "name": "NIC",
+        "hdi": 0.669,
+        "populationPercentage": 0.08,
+        "rank": 130
+    },
+    {
+        "name": "CPV",
+        "hdi": 0.661,
+        "populationPercentage": 0.004,
+        "rank": 131
+    },
+    {
+        "name": "TUV",
+        "hdi": 0.653,
+        "populationPercentage": 0.004,
+        "rank": 132
+    },
+    {
+        "name": "GNQ",
+        "hdi": 0.65,
+        "populationPercentage": 0.01,
+        "rank": 133
+    },
+    {
+        "name": "IND",
+        "hdi": 0.644,
+        "populationPercentage": 17.5,
+        "rank": 134
+    },
+    {
+        "name": "FSM",
+        "hdi": 0.634,
+        "populationPercentage": 0.01,
+        "rank": 135
+    },
+    {
+        "name": "GTM",
+        "hdi": 0.629,
+        "populationPercentage": 0.01,
+        "rank": 136
+    },
+    {
+        "name": "KIR",
+        "hdi": 0.628,
+        "populationPercentage": 0.004,
+        "rank": 137
+    },
+    {
+        "name": "HND",
+        "hdi": 0.624,
+        "populationPercentage": 0.1,
+        "rank": 138
+    },
+    {
+        "name": "LAO",
+        "hdi": 0.62,
+        "populationPercentage": 0.09,
+        "rank": 139
+    },
+    {
+        "name": "VUT",
+        "hdi": 0.614,
+        "populationPercentage": 0.01,
+        "rank": 140
+    },
+    {
+        "name": "STP",
+        "hdi": 0.613,
+        "populationPercentage": 0.004,
+        "rank": 141
+    },
+    {
+        "name": "NAM",
+        "hdi": 0.61,
+        "populationPercentage": 0.01,
+        "rank": 142
+    },
+    {
+        "name": "SWZ",
+        "hdi": 0.61,
+        "populationPercentage": 0.004,
+        "rank": 142
+    },
+    {
+        "name": "MMR",
+        "hdi": 0.608,
+        "populationPercentage": 0.01,
+        "rank": 144
+    },
+    {
+        "name": "GHA",
+        "hdi": 0.602,
+        "populationPercentage": 0.01,
+        "rank": 145
+    },
+    {
+        "name": "KEN",
+        "hdi": 0.601,
+        "populationPercentage": 0.01,
+        "rank": 146
+    },
+    {
+        "name": "NPL",
+        "hdi": 0.601,
+        "populationPercentage": 0.01,
+        "rank": 146
+    },
+    {
+        "name": "KHM",
+        "hdi": 0.6,
+        "populationPercentage": 0.01,
+        "rank": 148
+    },
+    {
+        "name": "AGO",
+        "hdi": 0.591,
+        "populationPercentage": 0.01,
+        "rank": 149
+    },
+    {
+        "name": "CMR",
+        "hdi": 0.587,
+        "populationPercentage": 0.01,
+        "rank": 150
+    },
+    {
+        "name": "COM",
+        "hdi": 0.586,
+        "populationPercentage": 0.004,
+        "rank": 151
+    },
+    {
+        "name": "ZMB",
+        "hdi": 0.569,
+        "populationPercentage": 0.01,
+        "rank": 152
+    },
+    {
+        "name": "PNG",
+        "hdi": 0.568,
+        "populationPercentage": 0.01,
+        "rank": 153
+    },
+    {
+        "name": "TLS",
+        "hdi": 0.566,
+        "populationPercentage": 0.004,
+        "rank": 154
+    },
+    {
+        "name": "SLB",
+        "hdi": 0.562,
+        "populationPercentage": 0.004,
+        "rank": 155
+    },
+    {
+        "name": "SYR",
+        "hdi": 0.557,
+        "populationPercentage": 0.01,
+        "rank": 156
+    },
+    {
+        "name": "HTI",
+        "hdi": 0.552,
+        "populationPercentage": 0.01,
+        "rank": 157
+    },
+    {
+        "name": "UGA",
+        "hdi": 0.55,
+        "populationPercentage": 0.01,
+        "rank": 158
+    },
+    {
+        "name": "ZWE",
+        "hdi": 0.55,
+        "populationPercentage": 0.01,
+        "rank": 158
+    },
+    {
+        "name": "NGA",
+        "hdi": 0.548,
+        "populationPercentage": 2.7,
+        "rank": 160
+    },
+    {
+        "name": "RWA",
+        "hdi": 0.548,
+        "populationPercentage": 0.01,
+        "rank": 160
+    },
+    {
+        "name": "TGO",
+        "hdi": 0.547,
+        "populationPercentage": 0.01,
+        "rank": 162
+    },
+    {
+        "name": "PAK",
+        "hdi": 0.54,
+        "populationPercentage": 3,
+        "rank": 163
+    },
+    {
+        "name": "MRT",
+        "hdi": 0.54,
+        "populationPercentage": 0.01,
+        "rank": 163
+    },
+    {
+        "name": "CIV",
+        "hdi": 0.534,
+        "populationPercentage": 0.01,
+        "rank": 165
+    },
+    {
+        "name": "TZA",
+        "hdi": 0.532,
+        "populationPercentage": 0.8,
+        "rank": 166
+    },
+    {
+        "name": "LSO",
+        "hdi": 0.521,
+        "populationPercentage": 0.01,
+        "rank": 167
+    },
+    {
+        "name": "SEN",
+        "hdi": 0.517,
+        "populationPercentage": 0.01,
+        "rank": 168
+    },
+    {
+        "name": "SDN",
+        "hdi": 0.516,
+        "populationPercentage": 0.6,
+        "rank": 169
+    },
+    {
+        "name": "DJI",
+        "hdi": 0.515,
+        "populationPercentage": 0.01,
+        "rank": 170
+    },
+    {
+        "name": "MWI",
+        "hdi": 0.508,
+        "populationPercentage": 0.01,
+        "rank": 171
+    },
+    {
+        "name": "BEN",
+        "hdi": 0.504,
+        "populationPercentage": 0.01,
+        "rank": 172
+    },
+    {
+        "name": "GMB",
+        "hdi": 0.495,
+        "populationPercentage": 0.01,
+        "rank": 173
+    },
+    {
+        "name": "ERI",
+        "hdi": 0.493,
+        "populationPercentage": 0.01,
+        "rank": 174
+    },
+    {
+        "name": "ETH",
+        "hdi": 0.492,
+        "populationPercentage": 1.3,
+        "rank": 175
+    },
+    {
+        "name": "MDG",
+        "hdi": 0.487,
+        "populationPercentage": 0.01,
+        "rank": 176
+    },
+    {
+        "name": "LBR",
+        "hdi": 0.487,
+        "populationPercentage": 0.01,
+        "rank": 176
+    },
+    {
+        "name": "GNB",
+        "hdi": 0.483,
+        "populationPercentage": 0.01,
+        "rank": 178
+    },
+    {
+        "name": "COD",
+        "hdi": 0.481,
+        "populationPercentage": 1.3,
+        "rank": 179
+    },
+    {
+        "name": "GIN",
+        "hdi": 0.471,
+        "populationPercentage": 0.01,
+        "rank": 180
+    },
+    {
+        "name": "AFG",
+        "hdi": 0.462,
+        "populationPercentage": 0.5,
+        "rank": 181
+    },
+    {
+        "name": "MOZ",
+        "hdi": 0.461,
+        "populationPercentage": 0.01,
+        "rank": 182
+    },
+    {
+        "name": "SLE",
+        "hdi": 0.458,
+        "populationPercentage": 0.01,
+        "rank": 183
+    },
+    {
+        "name": "BFA",
+        "hdi": 0.438,
+        "populationPercentage": 0.01,
+        "rank": 184
+    },
+    {
+        "name": "YEM",
+        "hdi": 0.424,
+        "populationPercentage": 0.01,
+        "rank": 185
+    },
+    {
+        "name": "BDI",
+        "hdi": 0.42,
+        "populationPercentage": 0.01,
+        "rank": 186
+    },
+    {
+        "name": "MLI",
+        "hdi": 0.41,
+        "populationPercentage": 0.27,
+        "rank": 187
+    },
+    {
+        "name": "NER",
+        "hdi": 0.394,
+        "populationPercentage": 0.3,
+        "rank": 188
+    },
+    {
+        "name": "TCD",
+        "hdi": 0.394,
+        "populationPercentage": 0.01,
+        "rank": 188
+    },
+    {
+        "name": "CAF",
+        "hdi": 0.387,
+        "populationPercentage": 0.01,
+        "rank": 190
+    },
+    {
+        "name": "SSD",
+        "hdi": 0.381,
+        "populationPercentage": 0.2,
+        "rank": 191
+    },
+    {
+        "name": "SOM",
+        "hdi": 0.38,
+        "populationPercentage": 0.01,
+        "rank": 192
+    }
+]
