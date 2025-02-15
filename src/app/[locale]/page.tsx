@@ -11,48 +11,48 @@ import { LanguageSelect } from '@/components/language-select';
 export default function HomePage() {
     const t = useTranslations('HomePage');
     const regionT = useTranslations('RegionNames');
-    const [selectedRegion, setSelectedRegion] = useState<ReturnType<typeof getRandomRegion> | null>(null);
-    const [counts, setCounts] = useState({
-        reincarnationCount: 0,
-        reincarnationChinaCount: 0,
-        reincarnationIndiaCount: 0,
+    const [currentRegion, setCurrentRegion] = useState<ReturnType<typeof getRandomRegion> | null>(null);
+    const [reincarnationStats, setReincarnationStats] = useState({
+        totalCount: 0,
+        chinaCount: 0,
+        indiaCount: 0,
     });
 
     useEffect(() => {
-        // 初始化時從 localStorage 獲取 counts
-        const storedCounts = localStorage.getItem('counts');
-        if (storedCounts) {
-            setCounts(JSON.parse(storedCounts));
+        const storedStats = localStorage.getItem('counts');
+        if (storedStats) {
+            setReincarnationStats(JSON.parse(storedStats));
         }
     }, []);
 
+    const updateReincarnationStats = (newRegion: ReturnType<typeof getRandomRegion>) => {
+        setReincarnationStats((prevStats) => {
+            const updatedStats = {
+                totalCount: prevStats.totalCount + 1,
+                chinaCount: prevStats.chinaCount + (regionT(newRegion.name) === regionT('CHN') ? 1 : 0),
+                indiaCount: prevStats.indiaCount + (regionT(newRegion.name) === regionT('IND') ? 1 : 0),
+            };
+            localStorage.setItem('counts', JSON.stringify(updatedStats));
+            return updatedStats;
+        });
+    };
+
     const handleRandomClick = () => {
         const newRegion = getRandomRegion();
-        setSelectedRegion(newRegion);
-
-        setCounts((prev) => {
-            const newCounts = {
-                reincarnationCount: prev.reincarnationCount + 1,
-                reincarnationChinaCount:
-                    prev.reincarnationChinaCount + (regionT(newRegion.name) === regionT('CHN') ? 1 : 0),
-                reincarnationIndiaCount:
-                    prev.reincarnationIndiaCount + (regionT(newRegion.name) === regionT('IND') ? 1 : 0),
-            };
-            // 更新 localStorage
-            localStorage.setItem('counts', JSON.stringify(newCounts));
-            return newCounts;
-        });
+        setCurrentRegion(newRegion);
+        updateReincarnationStats(newRegion);
     };
 
-    const handleRestClick = () => {
+    const handleResetClick = () => {
         localStorage.removeItem('counts');
-        setSelectedRegion(null);
-        setCounts({
-            reincarnationCount: 0,
-            reincarnationChinaCount: 0,
-            reincarnationIndiaCount: 0,
+        setCurrentRegion(null);
+        setReincarnationStats({
+            totalCount: 0,
+            chinaCount: 0,
+            indiaCount: 0,
         });
     };
+
     return (
         <div className="container mx-auto p-4">
             <div>
@@ -67,40 +67,40 @@ export default function HomePage() {
                     <Button onClick={handleRandomClick} className="mb-4">
                         {t('reincarnation')}
                     </Button>
-                    <Button onClick={handleRestClick} className="mb-4">
+                    <Button onClick={handleResetClick} className="mb-4">
                         {t('reset')}
                     </Button>
                 </div>
                 <Card className="mb-4">
                     <CardHeader>
                         <CardTitle className="text-center">
-                            {selectedRegion ? regionT(selectedRegion.name) : '？'}
+                            {currentRegion?.name ? regionT(currentRegion.name) : '？'}
                         </CardTitle>
                     </CardHeader>
                     <CardContent className="gap-2 flex flex-col lg:flex-row justify-around">
                         <div className="grid gap-2">
                             <div>
-                                {t('rank')}: {selectedRegion ? selectedRegion.rank : '？'}
+                                {t('rank')}: {currentRegion?.rank ?? '？'}
                             </div>
                             <div>
-                                {t('hdi')}: {selectedRegion ? selectedRegion.hdi : '？'}
+                                {t('hdi')}: {currentRegion?.hdi ?? '？'}
                             </div>
                             <div>
                                 {t('rarity')}:
-                                {selectedRegion
-                                    ? `${selectedRegion.populationPercentage.toFixed(3)}${t('percentage')}`
+                                {currentRegion?.populationPercentage
+                                    ? `${currentRegion.populationPercentage.toFixed(3)}${t('percentage')}`
                                     : '？'}
                             </div>
                         </div>
                         <div className="grid gap-2">
                             <div>
-                                {t('reincarnationCount')}: {counts.reincarnationCount}
+                                {t('reincarnationCount')}: {reincarnationStats.totalCount}
                             </div>
                             <div>
-                                {t('reincarnationChinaCount')}: {counts.reincarnationChinaCount}
+                                {t('reincarnationChinaCount')}: {reincarnationStats.chinaCount}
                             </div>
                             <div>
-                                {t('reincarnationIndiaCount')}: {counts.reincarnationIndiaCount}
+                                {t('reincarnationIndiaCount')}: {reincarnationStats.indiaCount}
                             </div>
                         </div>
                     </CardContent>
