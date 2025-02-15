@@ -1,1250 +1,1162 @@
 {
     "regions": [
         {
-            "name": "NOR",
-            "hdi": 0.961,
-            "lifeExpectancy": 83.2,
-            "populationPercentage": 0.07,
+            "name": "CHE",
+            "hdi": 0.967,
+            "populationPercentage": 0.11,
             "rank": 1
         },
         {
-            "name": "MCO",
-            "hdi": 0.956,
-            "lifeExpectancy": 85.9,
-            "populationPercentage": 0.0005,
+            "name": "NOR",
+            "hdi": 0.966,
+            "populationPercentage": 0.07,
             "rank": 2
         },
         {
-            "name": "CHE",
-            "hdi": 0.955,
-            "lifeExpectancy": 84.0,
-            "populationPercentage": 0.11,
+            "name": "ISL",
+            "hdi": 0.959,
+            "populationPercentage": 0.004,
             "rank": 3
         },
         {
             "name": "HKG",
-            "hdi": 0.949,
-            "lifeExpectancy": 85.0,
-            "populationPercentage": 0.1,
-            "rank": 4
-        },
-        {
-            "name": "ISL",
-            "hdi": 0.949,
-            "lifeExpectancy": 82.7,
-            "populationPercentage": 0.004,
+            "hdi": 0.956,
+            "populationPercentage": 0.09,
             "rank": 4
         },
         {
             "name": "SWE",
-            "hdi": 0.947,
-            "lifeExpectancy": 82.8,
-            "populationPercentage": 0.13,
-            "rank": 6
-        },
-        {
-            "name": "IRL",
-            "hdi": 0.945,
-            "lifeExpectancy": 82.3,
-            "populationPercentage": 0.06,
-            "rank": 7
-        },
-        {
-            "name": "AUS",
-            "hdi": 0.944,
-            "lifeExpectancy": 83.2,
-            "populationPercentage": 0.33,
-            "rank": 8
-        },
-        {
-            "name": "DEU",
-            "hdi": 0.942,
-            "lifeExpectancy": 81.3,
-            "populationPercentage": 1.07,
-            "rank": 9
-        },
-        {
-            "name": "NLD",
-            "hdi": 0.941,
-            "lifeExpectancy": 82.2,
-            "populationPercentage": 0.22,
-            "rank": 10
+            "hdi": 0.952,
+            "populationPercentage": 0.12,
+            "rank": 5
         },
         {
             "name": "DNK",
-            "hdi": 0.94,
-            "lifeExpectancy": 81.4,
+            "hdi": 0.952,
             "populationPercentage": 0.07,
-            "rank": 11
+            "rank": 6
+        },
+        {
+            "name": "DEU",
+            "hdi": 0.95,
+            "populationPercentage": 1.03,
+            "rank": 7
+        },
+        {
+            "name": "IRL",
+            "hdi": 0.95,
+            "populationPercentage": 0.06,
+            "rank": 8
         },
         {
             "name": "SGP",
-            "hdi": 0.939,
-            "lifeExpectancy": 83.6,
+            "hdi": 0.949,
             "populationPercentage": 0.07,
+            "rank": 9
+        },
+        {
+            "name": "AUS",
+            "hdi": 0.946,
+            "populationPercentage": 0.32,
+            "rank": 10
+        },
+        {
+            "name": "NLD",
+            "hdi": 0.946,
+            "populationPercentage": 0.03,
+            "rank": 11
+        },
+        {
+            "name": "BEL",
+            "hdi": 0.942,
+            "populationPercentage": 0.02,
             "rank": 12
         },
         {
             "name": "FIN",
-            "hdi": 0.938,
-            "lifeExpectancy": 81.9,
-            "populationPercentage": 0.07,
-            "rank": 13
-        },
-        {
-            "name": "NZL",
-            "hdi": 0.937,
-            "lifeExpectancy": 82.3,
-            "populationPercentage": 0.06,
-            "rank": 14
-        },
-        {
-            "name": "CAN",
-            "hdi": 0.936,
-            "lifeExpectancy": 82.4,
-            "populationPercentage": 0.48,
-            "rank": 15
+            "hdi": 0.942,
+            "populationPercentage": 0.01,
+            "rank": 12
         },
         {
             "name": "LIE",
-            "hdi": 0.935,
-            "lifeExpectancy": 83.3,
-            "populationPercentage": 0.0005,
-            "rank": 16
+            "hdi": 0.942,
+            "populationPercentage": 0.004,
+            "rank": 12
         },
         {
             "name": "GBR",
-            "hdi": 0.932,
-            "lifeExpectancy": 81.2,
-            "populationPercentage": 0.87,
+            "hdi": 0.94,
+            "populationPercentage": 0.06,
+            "rank": 15
+        },
+        {
+            "name": "NZL",
+            "hdi": 0.939,
+            "populationPercentage": 0.02,
+            "rank": 16
+        },
+        {
+            "name": "ARE",
+            "hdi": 0.937,
+            "populationPercentage": 0.02,
             "rank": 17
         },
         {
-            "name": "BEL",
-            "hdi": 0.931,
-            "lifeExpectancy": 81.6,
-            "populationPercentage": 0.15,
+            "name": "CAN",
+            "hdi": 0.935,
+            "populationPercentage": 0.04,
             "rank": 18
         },
         {
-            "name": "USA",
-            "hdi": 0.926,
-            "lifeExpectancy": 78.9,
-            "populationPercentage": 4.25,
+            "name": "KOR",
+            "hdi": 0.929,
+            "populationPercentage": 0.06,
             "rank": 19
         },
         {
+            "name": "USA",
+            "hdi": 0.927,
+            "populationPercentage": 4.2,
+            "rank": 20
+        },
+        {
+            "name": "LUX",
+            "hdi": 0.927,
+            "populationPercentage": 0.01,
+            "rank": 20
+        },
+        {
             "name": "AUT",
-            "hdi": 0.922,
-            "lifeExpectancy": 81.6,
-            "populationPercentage": 0.11,
-            "rank": 20
-        },
-        {
-            "name": "MAC",
-            "hdi": 0.922,
-            "lifeExpectancy": 84.7,
-            "populationPercentage": 0.008,
-            "rank": 20
-        },
-        {
-            "name": "ISR",
-            "hdi": 0.919,
-            "lifeExpectancy": 83.0,
-            "populationPercentage": 0.12,
-            "rank": 22
-        },
-        {
-            "name": "JPN",
-            "hdi": 0.919,
-            "lifeExpectancy": 84.6,
-            "populationPercentage": 1.62,
+            "hdi": 0.926,
+            "populationPercentage": 0.01,
             "rank": 22
         },
         {
             "name": "SVN",
-            "hdi": 0.917,
-            "lifeExpectancy": 81.3,
-            "populationPercentage": 0.027,
-            "rank": 24
-        },
-        {
-            "name": "KOR",
-            "hdi": 0.916,
-            "lifeExpectancy": 83.0,
-            "populationPercentage": 0.65,
-            "rank": 25
+            "hdi": 0.926,
+            "populationPercentage": 0.004,
+            "rank": 22
         },
         {
             "name": "TWN",
-            "hdi": 0.916,
-            "lifeExpectancy": 81.3,
+            "hdi": 0.926,
             "populationPercentage": 0.3,
+            "rank": 22
+        },
+        {
+            "name": "JPN",
+            "hdi": 0.92,
+            "populationPercentage": 1.5,
+            "rank": 24
+        },
+        {
+            "name": "ISR",
+            "hdi": 0.915,
+            "populationPercentage": 0.1,
             "rank": 25
-        },
-        {
-            "name": "LUX",
-            "hdi": 0.916,
-            "lifeExpectancy": 82.3,
-            "populationPercentage": 0.008,
-            "rank": 25
-        },
-        {
-            "name": "ARE",
-            "hdi": 0.911,
-            "lifeExpectancy": 78.0,
-            "populationPercentage": 0.13,
-            "rank": 28
-        },
-        {
-            "name": "ESP",
-            "hdi": 0.905,
-            "lifeExpectancy": 83.6,
-            "populationPercentage": 0.6,
-            "rank": 29
-        },
-        {
-            "name": "FRA",
-            "hdi": 0.903,
-            "lifeExpectancy": 82.7,
-            "populationPercentage": 0.84,
-            "rank": 30
         },
         {
             "name": "MLT",
-            "hdi": 0.895,
-            "lifeExpectancy": 82.5,
-            "populationPercentage": 0.006,
-            "rank": 31
+            "hdi": 0.915,
+            "populationPercentage": 0.01,
+            "rank": 25
+        },
+        {
+            "name": "ESP",
+            "hdi": 0.911,
+            "populationPercentage": 0.02,
+            "rank": 27
+        },
+        {
+            "name": "FRA",
+            "hdi": 0.91,
+            "populationPercentage": 0.8,
+            "rank": 28
+        },
+        {
+            "name": "CYP",
+            "hdi": 0.907,
+            "populationPercentage": 0.01,
+            "rank": 29
         },
         {
             "name": "ITA",
-            "hdi": 0.892,
-            "lifeExpectancy": 83.5,
-            "populationPercentage": 0.77,
+            "hdi": 0.906,
+            "populationPercentage": 0.7,
+            "rank": 30
+        },
+        {
+            "name": "EST",
+            "hdi": 0.899,
+            "populationPercentage": 0.01,
+            "rank": 31
+        },
+        {
+            "name": "CZE",
+            "hdi": 0.895,
+            "populationPercentage": 0.1,
             "rank": 32
         },
         {
             "name": "GRC",
-            "hdi": 0.888,
-            "lifeExpectancy": 82.2,
-            "populationPercentage": 0.13,
+            "hdi": 0.893,
+            "populationPercentage": 0.02,
             "rank": 33
         },
         {
-            "name": "EST",
-            "hdi": 0.89,
-            "lifeExpectancy": 78.8,
-            "populationPercentage": 0.017,
+            "name": "BHR",
+            "hdi": 0.888,
+            "populationPercentage": 0.01,
             "rank": 34
         },
         {
-            "name": "POL",
-            "hdi": 0.876,
-            "lifeExpectancy": 78.7,
-            "populationPercentage": 0.49,
+            "name": "AND",
+            "hdi": 0.884,
+            "populationPercentage": 0.004,
             "rank": 35
         },
         {
+            "name": "POL",
+            "hdi": 0.881,
+            "populationPercentage": 0.5,
+            "rank": 36
+        },
+        {
             "name": "LTU",
-            "hdi": 0.875,
-            "lifeExpectancy": 75.9,
-            "populationPercentage": 0.035,
-            "rank": 36
-        },
-        {
-            "name": "BHR",
-            "hdi": 0.875,
-            "lifeExpectancy": 77.3,
-            "populationPercentage": 0.02,
-            "rank": 36
-        },
-        {
-            "name": "AND",
-            "hdi": 0.868,
-            "lifeExpectancy": 83.3,
-            "populationPercentage": 0.001,
-            "rank": 38
-        },
-        {
-            "name": "PRT",
-            "hdi": 0.866,
-            "lifeExpectancy": 82.1,
-            "populationPercentage": 0.13,
-            "rank": 39
+            "hdi": 0.879,
+            "populationPercentage": 0.01,
+            "rank": 37
         },
         {
             "name": "LVA",
-            "hdi": 0.863,
-            "lifeExpectancy": 75.3,
-            "populationPercentage": 0.024,
-            "rank": 40
+            "hdi": 0.879,
+            "populationPercentage": 0.01,
+            "rank": 37
         },
         {
-            "name": "SVK",
-            "hdi": 0.86,
-            "lifeExpectancy": 77.5,
-            "populationPercentage": 0.07,
-            "rank": 41
-        },
-        {
-            "name": "SMR",
-            "hdi": 0.853,
-            "lifeExpectancy": 84.0,
-            "populationPercentage": 0.0004,
-            "rank": 42
+            "name": "HRV",
+            "hdi": 0.878,
+            "populationPercentage": 0.01,
+            "rank": 39
         },
         {
             "name": "SAU",
-            "hdi": 0.854,
-            "lifeExpectancy": 75.1,
-            "populationPercentage": 0.45,
-            "rank": 42
+            "hdi": 0.875,
+            "populationPercentage": 0.02,
+            "rank": 40
         },
         {
             "name": "QAT",
-            "hdi": 0.855,
-            "lifeExpectancy": 80.2,
-            "populationPercentage": 0.037,
+            "hdi": 0.875,
+            "populationPercentage": 0.01,
+            "rank": 40
+        },
+        {
+            "name": "PRT",
+            "hdi": 0.874,
+            "populationPercentage": 0.01,
             "rank": 42
+        },
+        {
+            "name": "SMR",
+            "hdi": 0.867,
+            "populationPercentage": 0.004,
+            "rank": 43
         },
         {
             "name": "CHL",
-            "hdi": 0.855,
-            "lifeExpectancy": 80.2,
-            "populationPercentage": 0.25,
-            "rank": 42
-        },
-        {
-            "name": "HUN",
-            "hdi": 0.846,
-            "lifeExpectancy": 76.9,
-            "populationPercentage": 0.12,
-            "rank": 46
-        },
-        {
-            "name": "ARG",
-            "hdi": 0.842,
-            "lifeExpectancy": 76.7,
-            "populationPercentage": 0.57,
-            "rank": 47
+            "hdi": 0.86,
+            "populationPercentage": 0.02,
+            "rank": 44
         },
         {
             "name": "TUR",
-            "hdi": 0.838,
-            "lifeExpectancy": 77.7,
-            "populationPercentage": 1.08,
-            "rank": 48
+            "hdi": 0.855,
+            "populationPercentage": 1,
+            "rank": 45
         },
         {
-            "name": "BRN",
-            "hdi": 0.838,
-            "lifeExpectancy": 75.9,
-            "populationPercentage": 0.006,
+            "name": "SVK",
+            "hdi": 0.855,
+            "populationPercentage": 0.01,
+            "rank": 45
+        },
+        {
+            "name": "HUN",
+            "hdi": 0.851,
+            "populationPercentage": 0.1,
+            "rank": 47
+        },
+        {
+            "name": "ARG",
+            "hdi": 0.849,
+            "populationPercentage": 0.6,
             "rank": 48
         },
         {
             "name": "KWT",
-            "hdi": 0.831,
-            "lifeExpectancy": 75.5,
-            "populationPercentage": 0.054,
-            "rank": 50
+            "hdi": 0.847,
+            "populationPercentage": 0.01,
+            "rank": 49
         },
         {
             "name": "MNE",
-            "hdi": 0.829,
-            "lifeExpectancy": 76.9,
-            "populationPercentage": 0.008,
+            "hdi": 0.844,
+            "populationPercentage": 0.01,
+            "rank": 50
+        },
+        {
+            "name": "KNA",
+            "hdi": 0.838,
+            "populationPercentage": 0.004,
             "rank": 51
         },
         {
-            "name": "RUS",
-            "hdi": 0.822,
-            "lifeExpectancy": 72.6,
-            "populationPercentage": 1.87,
+            "name": "URY",
+            "hdi": 0.83,
+            "populationPercentage": 0.01,
             "rank": 52
         },
         {
             "name": "ROU",
-            "hdi": 0.821,
-            "lifeExpectancy": 76.1,
-            "populationPercentage": 0.25,
+            "hdi": 0.827,
+            "populationPercentage": 0.01,
             "rank": 53
         },
         {
-            "name": "URY",
-            "hdi": 0.817,
-            "lifeExpectancy": 77.9,
-            "populationPercentage": 0.045,
+            "name": "ATG",
+            "hdi": 0.826,
+            "populationPercentage": 0.004,
             "rank": 54
         },
         {
-            "name": "PAN",
-            "hdi": 0.815,
-            "lifeExpectancy": 78.5,
-            "populationPercentage": 0.056,
+            "name": "BRN",
+            "hdi": 0.823,
+            "populationPercentage": 0.004,
             "rank": 55
         },
         {
-            "name": "BRB",
-            "hdi": 0.814,
-            "lifeExpectancy": 79.2,
-            "populationPercentage": 0.004,
+            "name": "RUS",
+            "hdi": 0.821,
+            "populationPercentage": 1.8,
             "rank": 56
         },
         {
-            "name": "OMN",
-            "hdi": 0.813,
-            "lifeExpectancy": 77.9,
-            "populationPercentage": 0.066,
+            "name": "PAN",
+            "hdi": 0.82,
+            "populationPercentage": 0.01,
             "rank": 57
         },
         {
             "name": "BHS",
-            "hdi": 0.812,
-            "lifeExpectancy": 73.9,
-            "populationPercentage": 0.005,
-            "rank": 58
+            "hdi": 0.82,
+            "populationPercentage": 0.004,
+            "rank": 57
         },
         {
-            "name": "KAZ",
-            "hdi": 0.811,
-            "lifeExpectancy": 73.6,
-            "populationPercentage": 0.24,
+            "name": "OMN",
+            "hdi": 0.819,
+            "populationPercentage": 0.01,
             "rank": 59
         },
         {
-            "name": "BLR",
-            "hdi": 0.808,
-            "lifeExpectancy": 74.8,
-            "populationPercentage": 0.12,
+            "name": "GEO",
+            "hdi": 0.814,
+            "populationPercentage": 0.01,
             "rank": 60
         },
         {
-            "name": "MUS",
-            "hdi": 0.804,
-            "lifeExpectancy": 75.0,
-            "populationPercentage": 0.016,
-            "rank": 61
+            "name": "TTO",
+            "hdi": 0.814,
+            "populationPercentage": 0.004,
+            "rank": 60
         },
         {
-            "name": "MYS",
-            "hdi": 0.803,
-            "lifeExpectancy": 76.2,
-            "populationPercentage": 0.42,
+            "name": "BRB",
+            "hdi": 0.809,
+            "populationPercentage": 0.004,
             "rank": 62
         },
         {
-            "name": "GEO",
-            "hdi": 0.802,
-            "lifeExpectancy": 73.8,
-            "populationPercentage": 0.048,
+            "name": "MYS",
+            "hdi": 0.807,
+            "populationPercentage": 0.4,
             "rank": 63
+        },
+        {
+            "name": "CRI",
+            "hdi": 0.806,
+            "populationPercentage": 0.07,
+            "rank": 64
         },
         {
             "name": "SRB",
-            "hdi": 0.802,
-            "lifeExpectancy": 76.0,
-            "populationPercentage": 0.09,
-            "rank": 63
-        },
-        {
-            "name": "THA",
-            "hdi": 0.8,
-            "lifeExpectancy": 77.7,
-            "populationPercentage": 0.9,
+            "hdi": 0.805,
+            "populationPercentage": 0.08,
             "rank": 65
         },
         {
-            "name": "ALB",
-            "hdi": 0.796,
-            "lifeExpectancy": 78.6,
-            "populationPercentage": 0.04,
+            "name": "THA",
+            "hdi": 0.803,
+            "populationPercentage": 0.8,
             "rank": 66
         },
         {
-            "name": "TTO",
-            "hdi": 0.796,
-            "lifeExpectancy": 73.5,
-            "populationPercentage": 0.018,
-            "rank": 66
+            "name": "KAZ",
+            "hdi": 0.802,
+            "populationPercentage": 0.2,
+            "rank": 67
         },
         {
-            "name": "BGR",
-            "hdi": 0.795,
-            "lifeExpectancy": 75.1,
-            "populationPercentage": 0.09,
-            "rank": 68
+            "name": "SYC",
+            "hdi": 0.802,
+            "populationPercentage": 0.004,
+            "rank": 67
         },
         {
-            "name": "BIH",
-            "hdi": 0.78,
-            "lifeExpectancy": 77.4,
-            "populationPercentage": 0.04,
+            "name": "BLR",
+            "hdi": 0.801,
+            "populationPercentage": 0.1,
             "rank": 69
         },
         {
-            "name": "UKR",
-            "hdi": 0.779,
-            "lifeExpectancy": 72.1,
-            "populationPercentage": 0.56,
+            "name": "BGR",
+            "hdi": 0.799,
+            "populationPercentage": 0.08,
             "rank": 70
         },
         {
-            "name": "KNA",
-            "hdi": 0.779,
-            "lifeExpectancy": 74.8,
-            "populationPercentage": 0.0007,
-            "rank": 70
+            "name": "PLW",
+            "hdi": 0.797,
+            "populationPercentage": 0.0002,
+            "rank": 71
+        },
+        {
+            "name": "MUS",
+            "hdi": 0.796,
+            "populationPercentage": 0.004,
+            "rank": 72
         },
         {
             "name": "GRD",
-            "hdi": 0.779,
-            "lifeExpectancy": 72.4,
-            "populationPercentage": 0.001,
-            "rank": 70
-        },
-        {
-            "name": "PER",
-            "hdi": 0.777,
-            "lifeExpectancy": 76.7,
-            "populationPercentage": 0.42,
+            "hdi": 0.793,
+            "populationPercentage": 0.004,
             "rank": 73
         },
         {
-            "name": "IRN",
-            "hdi": 0.774,
-            "lifeExpectancy": 76.7,
-            "populationPercentage": 1.08,
-            "rank": 74
-        },
-        {
-            "name": "MKD",
-            "hdi": 0.774,
-            "lifeExpectancy": 75.8,
-            "populationPercentage": 0.027,
+            "name": "ALB",
+            "hdi": 0.789,
+            "populationPercentage": 0.01,
             "rank": 74
         },
         {
             "name": "CHN",
-            "hdi": 0.768,
-            "lifeExpectancy": 77.1,
-            "populationPercentage": 17.88,
-            "rank": 76
-        },
-        {
-            "name": "PLW",
-            "hdi": 0.767,
-            "lifeExpectancy": 73.9,
-            "populationPercentage": 0.0002,
-            "rank": 77
-        },
-        {
-            "name": "DOM",
-            "hdi": 0.767,
-            "lifeExpectancy": 74.5,
-            "populationPercentage": 0.14,
-            "rank": 77
-        },
-        {
-            "name": "LCA",
-            "hdi": 0.759,
-            "lifeExpectancy": 76.2,
-            "populationPercentage": 0.002,
-            "rank": 79
+            "hdi": 0.788,
+            "populationPercentage": 17.5,
+            "rank": 75
         },
         {
             "name": "ARM",
-            "hdi": 0.759,
-            "lifeExpectancy": 75.1,
-            "populationPercentage": 0.04,
-            "rank": 79
-        },
-        {
-            "name": "ECU",
-            "hdi": 0.759,
-            "lifeExpectancy": 77.0,
-            "populationPercentage": 0.23,
-            "rank": 79
+            "hdi": 0.786,
+            "populationPercentage": 0.01,
+            "rank": 76
         },
         {
             "name": "MEX",
-            "hdi": 0.758,
-            "lifeExpectancy": 75.1,
-            "populationPercentage": 1.65,
+            "hdi": 0.781,
+            "populationPercentage": 1.6,
+            "rank": 77
+        },
+        {
+            "name": "IRN",
+            "hdi": 0.78,
+            "populationPercentage": 1.1,
+            "rank": 78
+        },
+        {
+            "name": "LKA",
+            "hdi": 0.78,
+            "populationPercentage": 0.3,
+            "rank": 78
+        },
+        {
+            "name": "BIH",
+            "hdi": 0.779,
+            "populationPercentage": 0.01,
+            "rank": 80
+        },
+        {
+            "name": "VCT",
+            "hdi": 0.772,
+            "populationPercentage": 0.06,
+            "rank": 81
+        },
+        {
+            "name": "DOM",
+            "hdi": 0.766,
+            "populationPercentage": 0.01,
             "rank": 82
         },
         {
-            "name": "BRA",
-            "hdi": 0.754,
-            "lifeExpectancy": 75.9,
-            "populationPercentage": 2.73,
+            "name": "ECU",
+            "hdi": 0.765,
+            "populationPercentage": 0.2,
             "rank": 83
         },
         {
-            "name": "COL",
-            "hdi": 0.752,
-            "lifeExpectancy": 77.3,
-            "populationPercentage": 0.65,
-            "rank": 84
+            "name": "MKD",
+            "hdi": 0.765,
+            "populationPercentage": 0.01,
+            "rank": 83
         },
         {
-            "name": "MDA",
-            "hdi": 0.75,
-            "lifeExpectancy": 71.9,
-            "populationPercentage": 0.032,
+            "name": "CUB",
+            "hdi": 0.764,
+            "populationPercentage": 0.1,
             "rank": 85
         },
         {
-            "name": "MDV",
-            "hdi": 0.747,
-            "lifeExpectancy": 78.9,
-            "populationPercentage": 0.007,
+            "name": "MDA",
+            "hdi": 0.763,
+            "populationPercentage": 0.01,
             "rank": 86
+        },
+        {
+            "name": "PER",
+            "hdi": 0.762,
+            "populationPercentage": 0.4,
+            "rank": 87
+        },
+        {
+            "name": "MDV",
+            "hdi": 0.762,
+            "populationPercentage": 0.004,
+            "rank": 87
+        },
+        {
+            "name": "BRA",
+            "hdi": 0.76,
+            "populationPercentage": 2.6,
+            "rank": 89
+        },
+        {
+            "name": "AZE",
+            "hdi": 0.76,
+            "populationPercentage": 0.1,
+            "rank": 89
+        },
+        {
+            "name": "COL",
+            "hdi": 0.758,
+            "populationPercentage": 0.6,
+            "rank": 91
+        },
+        {
+            "name": "LBY",
+            "hdi": 0.746,
+            "populationPercentage": 0.09,
+            "rank": 92
         },
         {
             "name": "DZA",
             "hdi": 0.745,
-            "lifeExpectancy": 76.9,
-            "populationPercentage": 0.56,
-            "rank": 87
-        },
-        {
-            "name": "AZE",
-            "hdi": 0.745,
-            "lifeExpectancy": 73.0,
-            "populationPercentage": 0.13,
-            "rank": 87
-        },
-        {
-            "name": "DMA",
-            "hdi": 0.742,
-            "lifeExpectancy": 76.6,
-            "populationPercentage": 0.001,
-            "rank": 89
-        },
-        {
-            "name": "TUN",
-            "hdi": 0.739,
-            "lifeExpectancy": 76.7,
-            "populationPercentage": 0.15,
-            "rank": 90
-        },
-        {
-            "name": "VCT",
-            "hdi": 0.738,
-            "lifeExpectancy": 72.5,
-            "populationPercentage": 0.001,
-            "rank": 91
-        },
-        {
-            "name": "SUR",
-            "hdi": 0.738,
-            "lifeExpectancy": 71.7,
-            "populationPercentage": 0.008,
-            "rank": 91
-        },
-        {
-            "name": "MNG",
-            "hdi": 0.737,
-            "lifeExpectancy": 69.9,
-            "populationPercentage": 0.042,
+            "populationPercentage": 0.01,
             "rank": 93
         },
         {
-            "name": "BWA",
-            "hdi": 0.735,
-            "lifeExpectancy": 69.6,
-            "populationPercentage": 0.03,
+            "name": "TKM",
+            "hdi": 0.744,
+            "populationPercentage": 0.01,
             "rank": 94
         },
         {
-            "name": "JAM",
-            "hdi": 0.734,
-            "lifeExpectancy": 74.5,
-            "populationPercentage": 0.038,
+            "name": "GUY",
+            "hdi": 0.742,
+            "populationPercentage": 0.004,
             "rank": 95
         },
         {
-            "name": "FJI",
-            "hdi": 0.73,
-            "lifeExpectancy": 67.4,
-            "populationPercentage": 0.012,
+            "name": "MNG",
+            "hdi": 0.741,
+            "populationPercentage": 0.004,
             "rank": 96
         },
         {
-            "name": "JOR",
-            "hdi": 0.729,
-            "lifeExpectancy": 74.5,
-            "populationPercentage": 0.13,
+            "name": "DMA",
+            "hdi": 0.74,
+            "populationPercentage": 0.004,
             "rank": 97
         },
         {
-            "name": "PRY",
-            "hdi": 0.728,
-            "lifeExpectancy": 74.3,
-            "populationPercentage": 0.092,
+            "name": "TON",
+            "hdi": 0.739,
+            "populationPercentage": 0.004,
             "rank": 98
+        },
+        {
+            "name": "JOR",
+            "hdi": 0.736,
+            "populationPercentage": 0.1,
+            "rank": 99
+        },
+        {
+            "name": "UKR",
+            "hdi": 0.734,
+            "populationPercentage": 0.4,
+            "rank": 100
+        },
+        {
+            "name": "TUN",
+            "hdi": 0.732,
+            "populationPercentage": 0.1,
+            "rank": 101
+        },
+        {
+            "name": "PRY",
+            "hdi": 0.731,
+            "populationPercentage": 0.4,
+            "rank": 102
+        },
+        {
+            "name": "MHL",
+            "hdi": 0.731,
+            "populationPercentage": 0.004,
+            "rank": 102
+        },
+        {
+            "name": "FJI",
+            "hdi": 0.729,
+            "populationPercentage": 0.004,
+            "rank": 104
+        },
+        {
+            "name": "EGY",
+            "hdi": 0.728,
+            "populationPercentage": 1.3,
+            "rank": 105
         },
         {
             "name": "UZB",
             "hdi": 0.727,
-            "lifeExpectancy": 71.7,
-            "populationPercentage": 0.43,
-            "rank": 99
-        },
-        {
-            "name": "TON",
-            "hdi": 0.725,
-            "lifeExpectancy": 70.9,
-            "populationPercentage": 0.001,
-            "rank": 100
-        },
-        {
-            "name": "NRU",
-            "hdi": 0.72,
-            "lifeExpectancy": 67.4,
-            "populationPercentage": 0.0001,
-            "rank": 101
-        },
-        {
-            "name": "BOL",
-            "hdi": 0.718,
-            "lifeExpectancy": 71.5,
-            "populationPercentage": 0.15,
-            "rank": 102
-        },
-        {
-            "name": "LBY",
-            "hdi": 0.718,
-            "lifeExpectancy": 72.9,
-            "populationPercentage": 0.089,
-            "rank": 102
-        },
-        {
-            "name": "BLZ",
-            "hdi": 0.716,
-            "lifeExpectancy": 74.6,
-            "populationPercentage": 0.005,
-            "rank": 104
-        },
-        {
-            "name": "TKM",
-            "hdi": 0.715,
-            "lifeExpectancy": 68.2,
-            "populationPercentage": 0.078,
-            "rank": 105
-        },
-        {
-            "name": "VEN",
-            "hdi": 0.711,
-            "lifeExpectancy": 72.1,
-            "populationPercentage": 0.37,
+            "populationPercentage": 0.01,
             "rank": 106
         },
         {
-            "name": "ZAF",
-            "hdi": 0.709,
-            "lifeExpectancy": 64.1,
-            "populationPercentage": 0.76,
+            "name": "VNM",
+            "hdi": 0.726,
+            "populationPercentage": 1.2,
             "rank": 107
         },
         {
-            "name": "WSM",
-            "hdi": 0.707,
-            "lifeExpectancy": 73.3,
-            "populationPercentage": 0.003,
+            "name": "LCA",
+            "hdi": 0.725,
+            "populationPercentage": 0.004,
             "rank": 108
         },
         {
             "name": "LBN",
-            "hdi": 0.706,
-            "lifeExpectancy": 78.9,
-            "populationPercentage": 0.088,
+            "hdi": 0.723,
+            "populationPercentage": 0.07,
             "rank": 109
         },
         {
-            "name": "IDN",
-            "hdi": 0.705,
-            "lifeExpectancy": 71.7,
-            "populationPercentage": 3.51,
+            "name": "ZAF",
+            "hdi": 0.717,
+            "populationPercentage": 0.8,
             "rank": 110
         },
         {
-            "name": "GAB",
-            "hdi": 0.703,
-            "lifeExpectancy": 66.5,
-            "populationPercentage": 0.028,
+            "name": "PSE",
+            "hdi": 0.716,
+            "populationPercentage": 0.01,
             "rank": 111
         },
         {
-            "name": "VNM",
-            "hdi": 0.703,
-            "lifeExpectancy": 75.4,
-            "populationPercentage": 1.25,
-            "rank": 111
+            "name": "IDN",
+            "hdi": 0.713,
+            "populationPercentage": 3.5,
+            "rank": 112
         },
         {
             "name": "PHL",
-            "hdi": 0.699,
-            "lifeExpectancy": 71.2,
-            "populationPercentage": 1.41,
+            "hdi": 0.71,
+            "populationPercentage": 1.4,
             "rank": 113
         },
         {
-            "name": "KGZ",
-            "hdi": 0.692,
-            "lifeExpectancy": 71.5,
-            "populationPercentage": 0.083,
+            "name": "BWA",
+            "hdi": 0.708,
+            "populationPercentage": 0.01,
             "rank": 114
         },
         {
-            "name": "IRQ",
-            "hdi": 0.686,
-            "lifeExpectancy": 70.6,
-            "populationPercentage": 0.51,
-            "rank": 115
-        },
-        {
-            "name": "MAR",
-            "hdi": 0.686,
-            "lifeExpectancy": 76.7,
-            "populationPercentage": 0.47,
-            "rank": 115
-        },
-        {
-            "name": "GUY",
-            "hdi": 0.682,
-            "lifeExpectancy": 69.9,
+            "name": "JAM",
+            "hdi": 0.706,
             "populationPercentage": 0.01,
+            "rank": 115
+        },
+        {
+            "name": "WSM",
+            "hdi": 0.702,
+            "populationPercentage": 0.004,
+            "rank": 116
+        },
+        {
+            "name": "KGZ",
+            "hdi": 0.701,
+            "populationPercentage": 0.09,
             "rank": 117
         },
         {
-            "name": "SLV",
-            "hdi": 0.675,
-            "lifeExpectancy": 73.3,
-            "populationPercentage": 0.08,
+            "name": "BLZ",
+            "hdi": 0.7,
+            "populationPercentage": 0.004,
             "rank": 118
         },
         {
-            "name": "TJK",
-            "hdi": 0.668,
-            "lifeExpectancy": 71.1,
-            "populationPercentage": 0.12,
+            "name": "VEN",
+            "hdi": 0.699,
+            "populationPercentage": 0.4,
             "rank": 119
         },
         {
-            "name": "NIC",
-            "hdi": 0.667,
-            "lifeExpectancy": 74.5,
-            "populationPercentage": 0.085,
+            "name": "MAR",
+            "hdi": 0.698,
+            "populationPercentage": 0.01,
             "rank": 120
         },
         {
-            "name": "BTN",
-            "hdi": 0.666,
-            "lifeExpectancy": 71.8,
-            "populationPercentage": 0.01,
-            "rank": 121
+            "name": "BOL",
+            "hdi": 0.698,
+            "populationPercentage": 0.1,
+            "rank": 120
         },
         {
-            "name": "CPV",
-            "hdi": 0.665,
-            "lifeExpectancy": 73.0,
-            "populationPercentage": 0.007,
+            "name": "NRU",
+            "hdi": 0.696,
+            "populationPercentage": 0.004,
             "rank": 122
         },
         {
-            "name": "BGD",
-            "hdi": 0.661,
-            "lifeExpectancy": 72.6,
-            "populationPercentage": 2.11,
+            "name": "GAB",
+            "hdi": 0.693,
+            "populationPercentage": 0.01,
             "rank": 123
         },
         {
-            "name": "TUV",
-            "hdi": 0.641,
-            "lifeExpectancy": 67.2,
-            "populationPercentage": 0.0002,
+            "name": "SUR",
+            "hdi": 0.69,
+            "populationPercentage": 0.004,
             "rank": 124
         },
         {
-            "name": "KIR",
-            "hdi": 0.63,
-            "lifeExpectancy": 68.4,
-            "populationPercentage": 0.002,
+            "name": "BTN",
+            "hdi": 0.681,
+            "populationPercentage": 0.004,
             "rank": 125
         },
         {
-            "name": "GHA",
-            "hdi": 0.632,
-            "lifeExpectancy": 64.1,
-            "populationPercentage": 0.4,
+            "name": "TJK",
+            "hdi": 0.679,
+            "populationPercentage": 0.1,
             "rank": 126
         },
         {
-            "name": "STP",
-            "hdi": 0.625,
-            "lifeExpectancy": 70.4,
-            "populationPercentage": 0.003,
+            "name": "SLV",
+            "hdi": 0.674,
+            "populationPercentage": 0.4,
             "rank": 127
         },
         {
-            "name": "GTM",
-            "hdi": 0.627,
-            "lifeExpectancy": 74.3,
-            "populationPercentage": 0.23,
+            "name": "IRQ",
+            "hdi": 0.673,
+            "populationPercentage": 0.5,
             "rank": 128
         },
         {
-            "name": "LAO",
-            "hdi": 0.613,
-            "lifeExpectancy": 68.1,
-            "populationPercentage": 0.093,
+            "name": "BGD",
+            "hdi": 0.67,
+            "populationPercentage": 2.1,
             "rank": 129
         },
         {
-            "name": "VUT",
-            "hdi": 0.609,
-            "lifeExpectancy": 70.4,
-            "populationPercentage": 0.004,
+            "name": "NIC",
+            "hdi": 0.669,
+            "populationPercentage": 0.08,
             "rank": 130
         },
         {
-            "name": "TLS",
-            "hdi": 0.606,
-            "lifeExpectancy": 69.5,
-            "populationPercentage": 0.017,
+            "name": "CPV",
+            "hdi": 0.661,
+            "populationPercentage": 0.004,
             "rank": 131
         },
         {
-            "name": "NPL",
-            "hdi": 0.602,
-            "lifeExpectancy": 70.8,
-            "populationPercentage": 0.37,
+            "name": "TUV",
+            "hdi": 0.653,
+            "populationPercentage": 0.004,
             "rank": 132
         },
         {
-            "name": "KEN",
-            "hdi": 0.601,
-            "lifeExpectancy": 66.7,
-            "populationPercentage": 0.69,
+            "name": "GNQ",
+            "hdi": 0.65,
+            "populationPercentage": 0.01,
             "rank": 133
         },
         {
-            "name": "KHM",
-            "hdi": 0.594,
-            "lifeExpectancy": 69.8,
-            "populationPercentage": 0.21,
+            "name": "IND",
+            "hdi": 0.644,
+            "populationPercentage": 17.5,
             "rank": 134
         },
         {
-            "name": "GNQ",
-            "hdi": 0.592,
-            "lifeExpectancy": 58.7,
-            "populationPercentage": 0.018,
+            "name": "FSM",
+            "hdi": 0.634,
+            "populationPercentage": 0.01,
             "rank": 135
         },
         {
-            "name": "AGO",
-            "hdi": 0.586,
-            "lifeExpectancy": 61.6,
-            "populationPercentage": 0.42,
+            "name": "GTM",
+            "hdi": 0.629,
+            "populationPercentage": 0.01,
             "rank": 136
         },
         {
-            "name": "ZMB",
-            "hdi": 0.584,
-            "lifeExpectancy": 63.9,
-            "populationPercentage": 0.24,
+            "name": "KIR",
+            "hdi": 0.628,
+            "populationPercentage": 0.004,
             "rank": 137
         },
         {
-            "name": "MMR",
-            "hdi": 0.583,
-            "lifeExpectancy": 67.1,
-            "populationPercentage": 0.69,
+            "name": "HND",
+            "hdi": 0.624,
+            "populationPercentage": 0.1,
             "rank": 138
         },
         {
-            "name": "COG",
-            "hdi": 0.571,
-            "lifeExpectancy": 64.6,
-            "populationPercentage": 0.07,
+            "name": "LAO",
+            "hdi": 0.62,
+            "populationPercentage": 0.09,
             "rank": 139
         },
         {
-            "name": "ZWE",
-            "hdi": 0.571,
-            "lifeExpectancy": 61.5,
-            "populationPercentage": 0.19,
-            "rank": 139
+            "name": "VUT",
+            "hdi": 0.614,
+            "populationPercentage": 0.01,
+            "rank": 140
         },
         {
-            "name": "SYR",
-            "hdi": 0.567,
-            "lifeExpectancy": 72.7,
-            "populationPercentage": 0.22,
+            "name": "STP",
+            "hdi": 0.613,
+            "populationPercentage": 0.004,
             "rank": 141
         },
         {
-            "name": "SLB",
-            "hdi": 0.567,
-            "lifeExpectancy": 73.0,
-            "populationPercentage": 0.009,
-            "rank": 141
+            "name": "NAM",
+            "hdi": 0.61,
+            "populationPercentage": 0.01,
+            "rank": 142
         },
         {
-            "name": "CMR",
-            "hdi": 0.563,
-            "lifeExpectancy": 59.3,
-            "populationPercentage": 0.34,
-            "rank": 143
+            "name": "SWZ",
+            "hdi": 0.61,
+            "populationPercentage": 0.004,
+            "rank": 142
         },
         {
-            "name": "PNG",
-            "hdi": 0.555,
-            "lifeExpectancy": 64.5,
-            "populationPercentage": 0.115,
+            "name": "MMR",
+            "hdi": 0.608,
+            "populationPercentage": 0.01,
             "rank": 144
         },
         {
-            "name": "COM",
-            "hdi": 0.554,
-            "lifeExpectancy": 64.3,
+            "name": "GHA",
+            "hdi": 0.602,
             "populationPercentage": 0.01,
             "rank": 145
         },
         {
-            "name": "MRT",
-            "hdi": 0.546,
-            "lifeExpectancy": 64.9,
-            "populationPercentage": 0.06,
+            "name": "KEN",
+            "hdi": 0.601,
+            "populationPercentage": 0.01,
             "rank": 146
         },
         {
-            "name": "BFA",
-            "hdi": 0.545,
-            "lifeExpectancy": 61.8,
-            "populationPercentage": 0.15,
-            "rank": 147
+            "name": "NPL",
+            "hdi": 0.601,
+            "populationPercentage": 0.01,
+            "rank": 146
         },
         {
-            "name": "UGA",
-            "hdi": 0.544,
-            "lifeExpectancy": 63.4,
-            "populationPercentage": 0.59,
+            "name": "KHM",
+            "hdi": 0.6,
+            "populationPercentage": 0.01,
             "rank": 148
         },
         {
-            "name": "RWA",
-            "hdi": 0.543,
-            "lifeExpectancy": 69.0,
-            "populationPercentage": 0.17,
+            "name": "AGO",
+            "hdi": 0.591,
+            "populationPercentage": 0.01,
             "rank": 149
         },
         {
-            "name": "PAK",
-            "hdi": 0.544,
-            "lifeExpectancy": 67.3,
-            "populationPercentage": 2.83,
-            "rank": 148
+            "name": "CMR",
+            "hdi": 0.587,
+            "populationPercentage": 0.01,
+            "rank": 150
         },
         {
-            "name": "NGA",
-            "hdi": 0.539,
-            "lifeExpectancy": 54.7,
-            "populationPercentage": 2.64,
+            "name": "COM",
+            "hdi": 0.586,
+            "populationPercentage": 0.004,
             "rank": 151
         },
         {
-            "name": "TZA",
-            "hdi": 0.529,
-            "lifeExpectancy": 65.5,
-            "populationPercentage": 0.77,
+            "name": "ZMB",
+            "hdi": 0.569,
+            "populationPercentage": 0.01,
             "rank": 152
         },
         {
-            "name": "HTI",
-            "hdi": 0.51,
-            "lifeExpectancy": 64.0,
-            "populationPercentage": 0.15,
+            "name": "PNG",
+            "hdi": 0.568,
+            "populationPercentage": 0.01,
             "rank": 153
         },
         {
-            "name": "DJI",
-            "hdi": 0.509,
-            "lifeExpectancy": 67.1,
-            "populationPercentage": 0.013,
+            "name": "TLS",
+            "hdi": 0.566,
+            "populationPercentage": 0.004,
             "rank": 154
         },
         {
-            "name": "SSD",
-            "hdi": 0.508,
-            "lifeExpectancy": 65.3,
-            "populationPercentage": 0.56,
+            "name": "SLB",
+            "hdi": 0.562,
+            "populationPercentage": 0.004,
             "rank": 155
         },
         {
-            "name": "LSO",
-            "hdi": 0.514,
-            "lifeExpectancy": 54.3,
-            "populationPercentage": 0.028,
+            "name": "SYR",
+            "hdi": 0.557,
+            "populationPercentage": 0.01,
             "rank": 156
         },
         {
-            "name": "TGO",
-            "hdi": 0.515,
-            "lifeExpectancy": 61.0,
-            "populationPercentage": 0.11,
+            "name": "HTI",
+            "hdi": 0.552,
+            "populationPercentage": 0.01,
             "rank": 157
         },
         {
-            "name": "SEN",
-            "hdi": 0.512,
-            "lifeExpectancy": 67.9,
-            "populationPercentage": 0.21,
+            "name": "UGA",
+            "hdi": 0.55,
+            "populationPercentage": 0.01,
             "rank": 158
         },
         {
-            "name": "MDG",
-            "hdi": 0.501,
-            "lifeExpectancy": 67.0,
-            "populationPercentage": 0.35,
-            "rank": 159
+            "name": "ZWE",
+            "hdi": 0.55,
+            "populationPercentage": 0.01,
+            "rank": 158
         },
         {
-            "name": "GMB",
-            "hdi": 0.496,
-            "lifeExpectancy": 62.1,
-            "populationPercentage": 0.031,
+            "name": "NGA",
+            "hdi": 0.548,
+            "populationPercentage": 2.7,
             "rank": 160
         },
         {
-            "name": "MWI",
-            "hdi": 0.483,
-            "lifeExpectancy": 64.3,
-            "populationPercentage": 0.24,
-            "rank": 161
+            "name": "RWA",
+            "hdi": 0.548,
+            "populationPercentage": 0.01,
+            "rank": 160
         },
         {
-            "name": "LBR",
-            "hdi": 0.48,
-            "lifeExpectancy": 64.1,
-            "populationPercentage": 0.065,
+            "name": "TGO",
+            "hdi": 0.547,
+            "populationPercentage": 0.01,
             "rank": 162
         },
         {
-            "name": "GNB",
-            "hdi": 0.48,
-            "lifeExpectancy": 58.3,
-            "populationPercentage": 0.025,
-            "rank": 162
+            "name": "PAK",
+            "hdi": 0.54,
+            "populationPercentage": 3,
+            "rank": 163
         },
         {
-            "name": "COD",
-            "hdi": 0.479,
-            "lifeExpectancy": 60.7,
-            "populationPercentage": 1.13,
-            "rank": 164
+            "name": "MRT",
+            "hdi": 0.54,
+            "populationPercentage": 0.01,
+            "rank": 163
         },
         {
-            "name": "AFG",
-            "hdi": 0.478,
-            "lifeExpectancy": 64.8,
-            "populationPercentage": 0.49,
+            "name": "CIV",
+            "hdi": 0.534,
+            "populationPercentage": 0.01,
             "rank": 165
         },
         {
-            "name": "GIN",
-            "hdi": 0.477,
-            "lifeExpectancy": 61.6,
-            "populationPercentage": 0.17,
+            "name": "TZA",
+            "hdi": 0.532,
+            "populationPercentage": 0.8,
             "rank": 166
         },
         {
-            "name": "YEM",
-            "hdi": 0.47,
-            "lifeExpectancy": 66.1,
-            "populationPercentage": 0.38,
+            "name": "LSO",
+            "hdi": 0.521,
+            "populationPercentage": 0.01,
             "rank": 167
         },
         {
-            "name": "ERI",
-            "hdi": 0.459,
-            "lifeExpectancy": 66.3,
-            "populationPercentage": 0.046,
+            "name": "SEN",
+            "hdi": 0.517,
+            "populationPercentage": 0.01,
             "rank": 168
         },
         {
-            "name": "MOZ",
-            "hdi": 0.456,
-            "lifeExpectancy": 60.9,
-            "populationPercentage": 0.4,
+            "name": "SDN",
+            "hdi": 0.516,
+            "populationPercentage": 0.6,
             "rank": 169
         },
         {
-            "name": "BFA",
-            "hdi": 0.452,
-            "lifeExpectancy": 61.6,
-            "populationPercentage": 0.27,
+            "name": "DJI",
+            "hdi": 0.515,
+            "populationPercentage": 0.01,
             "rank": 170
         },
         {
-            "name": "SLE",
-            "hdi": 0.452,
-            "lifeExpectancy": 54.7,
-            "populationPercentage": 0.1,
-            "rank": 170
+            "name": "MWI",
+            "hdi": 0.508,
+            "populationPercentage": 0.01,
+            "rank": 171
         },
         {
-            "name": "MLI",
-            "hdi": 0.434,
-            "lifeExpectancy": 59.3,
-            "populationPercentage": 0.26,
+            "name": "BEN",
+            "hdi": 0.504,
+            "populationPercentage": 0.01,
             "rank": 172
         },
         {
-            "name": "BDI",
-            "hdi": 0.426,
-            "lifeExpectancy": 61.7,
-            "populationPercentage": 0.15,
+            "name": "GMB",
+            "hdi": 0.495,
+            "populationPercentage": 0.01,
             "rank": 173
         },
         {
-            "name": "SSD",
-            "hdi": 0.385,
-            "lifeExpectancy": 57.9,
-            "populationPercentage": 0.14,
+            "name": "ERI",
+            "hdi": 0.493,
+            "populationPercentage": 0.01,
             "rank": 174
         },
         {
-            "name": "TCD",
-            "hdi": 0.398,
-            "lifeExpectancy": 54.2,
-            "populationPercentage": 0.21,
+            "name": "ETH",
+            "hdi": 0.492,
+            "populationPercentage": 1.3,
             "rank": 175
         },
         {
-            "name": "CAF",
-            "hdi": 0.397,
-            "lifeExpectancy": 53.3,
-            "populationPercentage": 0.06,
+            "name": "MDG",
+            "hdi": 0.487,
+            "populationPercentage": 0.01,
             "rank": 176
+        },
+        {
+            "name": "LBR",
+            "hdi": 0.487,
+            "populationPercentage": 0.01,
+            "rank": 176
+        },
+        {
+            "name": "GNB",
+            "hdi": 0.483,
+            "populationPercentage": 0.01,
+            "rank": 178
+        },
+        {
+            "name": "COD",
+            "hdi": 0.481,
+            "populationPercentage": 1.3,
+            "rank": 179
+        },
+        {
+            "name": "GIN",
+            "hdi": 0.471,
+            "populationPercentage": 0.01,
+            "rank": 180
+        },
+        {
+            "name": "AFG",
+            "hdi": 0.462,
+            "populationPercentage": 0.5,
+            "rank": 181
+        },
+        {
+            "name": "MOZ",
+            "hdi": 0.461,
+            "populationPercentage": 0.01,
+            "rank": 182
+        },
+        {
+            "name": "SLE",
+            "hdi": 0.458,
+            "populationPercentage": 0.01,
+            "rank": 183
+        },
+        {
+            "name": "BFA",
+            "hdi": 0.438,
+            "populationPercentage": 0.01,
+            "rank": 184
+        },
+        {
+            "name": "YEM",
+            "hdi": 0.424,
+            "populationPercentage": 0.01,
+            "rank": 185
+        },
+        {
+            "name": "BDI",
+            "hdi": 0.42,
+            "populationPercentage": 0.01,
+            "rank": 186
+        },
+        {
+            "name": "MLI",
+            "hdi": 0.41,
+            "populationPercentage": 0.27,
+            "rank": 187
         },
         {
             "name": "NER",
             "hdi": 0.394,
-            "lifeExpectancy": 62.4,
-            "populationPercentage": 0.31,
-            "rank": 177
+            "populationPercentage": 0.3,
+            "rank": 188
+        },
+        {
+            "name": "TCD",
+            "hdi": 0.394,
+            "populationPercentage": 0.01,
+            "rank": 188
+        },
+        {
+            "name": "CAF",
+            "hdi": 0.387,
+            "populationPercentage": 0.01,
+            "rank": 190
+        },
+        {
+            "name": "SSD",
+            "hdi": 0.381,
+            "populationPercentage": 0.2,
+            "rank": 191
         },
         {
             "name": "SOM",
-            "hdi": 0.361,
-            "lifeExpectancy": 57.4,
-            "populationPercentage": 0.2,
-            "rank": 178
+            "hdi": 0.38,
+            "populationPercentage": 0.01,
+            "rank": 192
         }
     ]
 }
