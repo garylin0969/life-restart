@@ -1,17 +1,17 @@
 ## Project URL
 
--   https://garylin0969-life-restart.vercel.app/
+- https://life-restart.garylin.dev
 
 ## Tech Stack
 
--   Next.js
--   TypeScript
--   Tailwind CSS
--   Shadcn UI
--   next-intl
--   next-themes
--   GitHub Actions for CI/CD
+- Next.js
+- TypeScript
+- Tailwind CSS
+- Shadcn UI
+- next-intl
+- next-themes
+- GitHub Actions for CI/CD
 
 ## Deployment
 
--   Vercel
+- Vercel
